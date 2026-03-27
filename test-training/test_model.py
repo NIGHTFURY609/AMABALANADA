@@ -31,6 +31,22 @@ img = torch.tensor(img).unsqueeze(0).float()
 with torch.no_grad():
     output = model(img)
     
+    
+    
+    
+#dont touch this part, it calculates the count from the density map
+
+try:
+    count = output.sum().item()
+except:
+    count = -1
+
+print(f"Predicted Count: {count:.2f}")
+    
+    
+    
+    
+    
 #heatmap
 # original image (before normalization)
 orig = cv2.imread("test-training/test.jpg")
@@ -46,9 +62,6 @@ density_map = density_map / density_map.max()
 heatmap = cv2.applyColorMap((density_map * 255).astype(np.uint8), cv2.COLORMAP_JET)
 heatmap = cv2.cvtColor(heatmap, cv2.COLOR_BGR2RGB)
 
-#approx locations
-
-
 # overlay
 overlay = 0.6 * orig + 0.4 * heatmap
 overlay = overlay.astype(np.uint8)
@@ -58,11 +71,34 @@ plt.title("Crowd Heatmap Overlay")
 plt.axis("off")
 plt.show()
 
-#dont touch this part, it calculates the count from the density map
+
+
+
+# v2 using yolo approx locations
+model = YOLO("yolov8l.pt")
+
+img = cv2.imread("test-training/test.jpg")
+results = model(img, conf=0.4, iou=0.5)
+
+for r in results:
+    for box in r.boxes:
+        cls = int(box.cls[0])
+        if cls == 0:  # person
+            x1, y1, x2, y2 = map(int, box.xyxy[0])
+            cx = (x1 + x2) // 2
+            cy = (y1 + y2) // 2
+            cv2.circle(img, (cx, cy), 3, (0,255,0), -1)
+
+
+
+cv2.putText(img, f"Count: {int(count)}", (20, 40),
+            cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
+
+cv2.imshow("People Dots", img)
+cv2.waitKey(0)
 
 
 
 
-count = output.sum().item()
 
-print(f"Predicted Count: {count:.2f}")
+
