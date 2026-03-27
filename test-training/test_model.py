@@ -8,12 +8,12 @@ from ultralytics import YOLO
 
 # load model
 model = CSRNet(load_weights=True)
-state_dict = torch.load("test-training/weights.pth", map_location="cpu")
+state_dict = torch.load("weights.pth", map_location="cpu")
 model.load_state_dict(state_dict)
 model.eval()
 
 # load image
-img = cv2.imread("test-training/test.jpg")
+img = cv2.imread("test.jpg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # resize (important!)
@@ -49,7 +49,7 @@ print(f"Predicted Count: {count:.2f}")
     
 #heatmap
 # original image (before normalization)
-orig = cv2.imread("test-training/test.jpg")
+orig = cv2.imread("test.jpg")
 orig = cv2.cvtColor(orig, cv2.COLOR_BGR2RGB)
 
 # resize density map to match image
@@ -77,7 +77,7 @@ plt.show()
 # v2 using yolo approx locations
 model = YOLO("yolov8l.pt")
 
-img = cv2.imread("test-training/test.jpg")
+img = cv2.imread("test.jpg")
 results = model(img, conf=0.4, iou=0.5)
 
 for r in results:

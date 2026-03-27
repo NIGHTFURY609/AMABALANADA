@@ -2,3 +2,6 @@ yolov8m.pt
 yolov8l.pt
 yolov8n.pt
 __pycache__/
+ground_state.db
+venue_state.db
+/test-traoining/ground_state.db
