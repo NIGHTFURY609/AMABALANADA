@@ -1,6 +1,5 @@
 import sqlite3
 import math
-import random
 from dataclasses import dataclass
 from typing import List, Tuple
 
@@ -12,21 +11,29 @@ class Attraction:
     pull_factor: int
 
 def get_ground_data(db_path: str) -> Tuple[int, int, List[Attraction]]:
-    """Fetches the venue state and attractions from the database."""
+    """Fetches the latest venue state and attractions from the database."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
-    # 1. Get Venue State
-    cursor.execute("SELECT current_crowd, projected_crowd_size FROM venue_state WHERE id = 1")
-    row = cursor.fetchone()
-    # Fallback to 0 if the table is somehow empty
-    current_crowd = row[0] if row else 0 
-    projected_crowd = row[1] if row else 0
+    # 1. Get the LATEST crowd size from the new crowd_log table
+    try:
+        # ORDER BY id DESC LIMIT 1 grabs the absolute newest row logged by the camera
+        cursor.execute("SELECT current_crowd FROM crowd_log ORDER BY id DESC LIMIT 1")
+        row = cursor.fetchone()
+        current_crowd = row[0] if row else 0 
+    except sqlite3.OperationalError:
+        current_crowd = 0 # Fallback if table doesn't exist
 
-    # 2. Get Attractions
-    cursor.execute("SELECT id, name, base_duration_mins, pull_factor FROM attractions")
-    attractions = [Attraction(*r) for r in cursor.fetchall()]
-    
+    # We set projected to 0 because your React dashboard now uses XGBoost for predictions!
+    projected_crowd = 0
+
+    # 2. Get Attractions (This table hasn't changed!)
+    try:
+        cursor.execute("SELECT id, name, base_duration_mins, pull_factor FROM attractions")
+        attractions = [Attraction(*r) for r in cursor.fetchall()]
+    except sqlite3.OperationalError:
+        attractions = []
+        
     conn.close()
     return current_crowd, projected_crowd, attractions
 
