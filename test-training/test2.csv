@@ -1,0 +1,731 @@
+Date,Time,Place,Crowd_Count (in Thousands),Weather,Day_of_Week,Holiday,Event,Temperature (°C),Special_Features,Region,Transportation_Type,,Week_of_Year
+2024-01-01,14:56:00,"Sanchi Stupa, Madhya Pradesh",825,Cloudy,Monday,Yes,Cultural Event,39,National Holiday,West,Walking,,00
+2024-01-02,00:48:00,"Qutub Minar, Delhi",8962,Cloudy,Tuesday,No,Regular Day,30,N/A,South,Private,,00
+2024-01-03,02:06:00,"Varanasi Ghats, Varanasi",10000,Clear,Wednesday,No,Regular Day,32,N/A,South,Public,,00
+2024-01-04,20:39:00,"Qutub Minar, Delhi",18632,Sunny,Thursday,No,Festival,24,N/A,West,Private,,00
+2024-01-05,05:38:00,"Red Fort, Delhi",5155,Rainy,Friday,No,Cultural Event,39,N/A,East,Walking,,00
+2024-01-06,08:50:00,"Mecca Masjid, Hyderabad",21382,Rainy,Saturday,No,National Holiday,29,N/A,Central,Public,,00
+2024-01-07,22:20:00,"Qutub Minar, Delhi",28882,Sunny,Sunday,No,Festival,33,N/A,North,Private,,01
+2024-01-08,02:19:00,"Red Fort, Delhi",5580,Rainy,Monday,No,Regular Day,34,N/A,Central,Walking,,01
+2024-01-09,15:30:00,"Varanasi Ghats, Varanasi",15248,Rainy,Tuesday,No,Festival,23,N/A,West,Walking,,01
+2024-01-10,01:29:00,"Qutub Minar, Delhi",16409,Rainy,Wednesday,No,Festival,38,N/A,North,Walking,,01
+2024-01-11,04:49:00,"Taj Mahal, Agra",18818,Clear,Thursday,No,Cultural Event,38,N/A,West,Walking,,01
+2024-01-12,06:35:00,"Sanchi Stupa, Madhya Pradesh",500,Cloudy,Friday,No,Regular Day,38,N/A,Central,Public,,01
+2024-01-13,16:23:00,"Gateway of India, Mumbai",19951,Sunny,Saturday,Yes,Regular Day,29,National Holiday,West,Public,,01
+2024-01-14,17:23:00,"Taj Mahal, Agra",17775,Rainy,Sunday,Yes,Regular Day,38,National Holiday,Central,Walking,,02
+2024-01-15,13:34:00,"India Gate, Delhi",47884,Rainy,Monday,Yes,Festival,23,National Holiday,South,Public,,02
+2024-01-16,05:07:00,"Sanchi Stupa, Madhya Pradesh",2000,Clear,Tuesday,No,Regular Day,35,N/A,Central,Walking,,02
+2024-01-17,00:27:00,"Red Fort, Delhi",23523,Rainy,Wednesday,Yes,Festival,22,National Holiday,West,Private,,02
+2024-01-18,15:03:00,"Varanasi Ghats, Varanasi",8606,Clear,Thursday,No,Cultural Event,39,N/A,North,Private,,02
+2024-01-19,15:36:00,"Taj Mahal, Agra",16173,Cloudy,Friday,No,Cultural Event,30,N/A,North,Private,,02
+2024-01-20,21:00:00,"Mecca Masjid, Hyderabad",6853,Cloudy,Saturday,No,Regular Day,38,N/A,Central,Private,,02
+2024-01-21,19:57:00,"Varanasi Ghats, Varanasi",28764,Rainy,Sunday,No,Festival,25,N/A,South,Public,,03
+2024-01-22,06:15:00,"Qutub Minar, Delhi",10000,Clear,Monday,No,Regular Day,30,N/A,South,Private,,03
+2024-01-23,11:18:00,"Red Fort, Delhi",20416,Cloudy,Tuesday,No,Festival,38,N/A,East,Public,,03
+2024-01-24,22:31:00,"Mecca Masjid, Hyderabad",8078,Sunny,Wednesday,No,Festival,27,N/A,East,Walking,,03
+2024-01-25,10:21:00,"Red Fort, Delhi",21738,Rainy,Thursday,Yes,Festival,38,National Holiday,West,Private,,03
+2024-01-26,21:04:00,"Red Fort, Delhi",9483,Sunny,Friday,Yes,Regular Day,34,National Holiday,South,Walking,,03
+2024-01-27,10:51:00,"Qutub Minar, Delhi",22592,Rainy,Saturday,No,Festival,22,N/A,North,Private,,03
+2024-01-28,19:27:00,"Gateway of India, Mumbai",19895,Clear,Sunday,No,Regular Day,34,N/A,South,Public,,04
+2024-01-29,23:12:00,"Mecca Masjid, Hyderabad",500,Rainy,Monday,No,Cultural Event,37,N/A,West,Public,,04
+2024-01-30,05:08:00,"Taj Mahal, Agra",18099,Rainy,Tuesday,No,Cultural Event,32,N/A,East,Walking,,04
+2024-01-31,03:57:00,"Sanchi Stupa, Madhya Pradesh",14198,Rainy,Wednesday,No,National Holiday,24,N/A,West,Public,,04
+2024-02-01,10:41:00,"India Gate, Delhi",30000,Sunny,Thursday,No,Cultural Event,36,N/A,North,Private,,04
+2024-02-02,19:02:00,"Qutub Minar, Delhi",23806,Clear,Friday,No,National Holiday,36,N/A,Central,Private,,04
+2024-02-03,16:34:00,"Mecca Masjid, Hyderabad",5952,Cloudy,Saturday,No,Regular Day,36,N/A,West,Private,,04
+2024-02-04,11:35:00,"Gateway of India, Mumbai",16772,Rainy,Sunday,No,Cultural Event,24,N/A,North,Private,,05
+2024-02-05,03:41:00,"India Gate, Delhi",30000,Clear,Monday,No,Cultural Event,32,N/A,Central,Private,,05
+2024-02-06,05:06:00,"India Gate, Delhi",30000,Sunny,Tuesday,No,Cultural Event,22,N/A,West,Walking,,05
+2024-02-07,07:56:00,"Qutub Minar, Delhi",9314,Cloudy,Wednesday,No,Cultural Event,23,N/A,West,Walking,,05
+2024-02-08,18:11:00,"Sanchi Stupa, Madhya Pradesh",500,Rainy,Thursday,No,Cultural Event,24,N/A,West,Walking,,05
+2024-02-09,01:01:00,"Varanasi Ghats, Varanasi",8037,Cloudy,Friday,No,Regular Day,31,N/A,West,Walking,,05
+2024-02-10,10:38:00,"Varanasi Ghats, Varanasi",14699,Sunny,Saturday,No,Regular Day,25,N/A,North,Walking,,05
+2024-02-11,13:52:00,"Red Fort, Delhi",17712,Sunny,Sunday,No,National Holiday,36,N/A,East,Public,,06
+2024-02-12,01:10:00,"Taj Mahal, Agra",18565,Rainy,Monday,No,Cultural Event,36,N/A,East,Public,,06
+2024-02-13,08:21:00,"Varanasi Ghats, Varanasi",8227,Cloudy,Tuesday,No,Regular Day,29,N/A,West,Private,,06
+2024-02-14,14:22:00,"Red Fort, Delhi",9313,Rainy,Wednesday,Yes,Cultural Event,34,National Holiday,South,Walking,,06
+2024-02-15,01:25:00,"Mecca Masjid, Hyderabad",21990,Clear,Thursday,No,National Holiday,20,N/A,Central,Private,,06
+2024-02-16,13:02:00,"Taj Mahal, Agra",29817,Clear,Friday,No,National Holiday,20,N/A,South,Private,,06
+2024-02-17,05:57:00,"India Gate, Delhi",29938,Rainy,Saturday,No,Regular Day,29,N/A,Central,Private,,06
+2024-02-18,12:44:00,"Red Fort, Delhi",26253,Rainy,Sunday,No,National Holiday,38,N/A,Central,Walking,,07
+2024-02-19,00:18:00,"Sanchi Stupa, Madhya Pradesh",20892,Cloudy,Monday,Yes,National Holiday,26,National Holiday,Central,Walking,,07
+2024-02-20,05:15:00,"India Gate, Delhi",40972,Rainy,Tuesday,No,National Holiday,34,N/A,South,Walking,,07
+2024-02-21,12:02:00,"Taj Mahal, Agra",20000,Clear,Wednesday,No,Cultural Event,27,N/A,East,Private,,07
+2024-02-22,21:17:00,"Taj Mahal, Agra",28670,Clear,Thursday,No,Festival,37,N/A,East,Public,,07
+2024-02-23,02:08:00,"Mecca Masjid, Hyderabad",6071,Rainy,Friday,No,National Holiday,28,N/A,Central,Public,,07
+2024-02-24,03:47:00,"Qutub Minar, Delhi",23319,Clear,Saturday,Yes,Festival,26,National Holiday,East,Walking,,07
+2024-02-25,13:25:00,"Mecca Masjid, Hyderabad",1948,Rainy,Sunday,No,Cultural Event,35,N/A,West,Private,,08
+2024-02-26,04:06:00,"Gateway of India, Mumbai",15000,Clear,Monday,No,Cultural Event,30,N/A,North,Walking,,08
+2024-02-27,14:14:00,"Red Fort, Delhi",25135,Cloudy,Tuesday,No,National Holiday,26,N/A,West,Private,,08
+2024-02-28,02:00:00,"Qutub Minar, Delhi",16028,Cloudy,Wednesday,No,National Holiday,34,N/A,North,Walking,,08
+2024-02-29,01:31:00,"Qutub Minar, Delhi",19954,Cloudy,Thursday,No,National Holiday,39,N/A,North,Private,,08
+2024-03-01,14:44:00,"Sanchi Stupa, Madhya Pradesh",20639,Cloudy,Friday,No,Festival,31,N/A,Central,Private,,08
+2024-03-02,15:47:00,"India Gate, Delhi",48259,Cloudy,Saturday,No,Festival,34,N/A,South,Walking,,08
+2024-03-03,18:49:00,"India Gate, Delhi",43079,Cloudy,Sunday,No,Festival,26,N/A,West,Public,,09
+2024-03-04,03:00:00,"Varanasi Ghats, Varanasi",20565,Rainy,Monday,No,National Holiday,39,N/A,South,Public,,09
+2024-03-05,23:17:00,"Gateway of India, Mumbai",27514,Sunny,Tuesday,No,National Holiday,22,N/A,South,Walking,,09
+2024-03-06,15:40:00,"Gateway of India, Mumbai",29287,Cloudy,Wednesday,Yes,Festival,20,National Holiday,East,Public,,09
+2024-03-07,20:08:00,"India Gate, Delhi",30000,Sunny,Thursday,No,Cultural Event,39,N/A,North,Public,,09
+2024-03-08,17:24:00,"Mecca Masjid, Hyderabad",20432,Clear,Friday,Yes,National Holiday,34,National Holiday,North,Private,,09
+2024-03-09,22:55:00,"Mecca Masjid, Hyderabad",17649,Rainy,Saturday,No,Festival,35,N/A,North,Private,,09
+2024-03-10,09:44:00,"Gateway of India, Mumbai",15773,Cloudy,Sunday,No,Cultural Event,27,N/A,South,Private,,10
+2024-03-11,23:37:00,"India Gate, Delhi",28909,Rainy,Monday,No,Regular Day,29,N/A,South,Walking,,10
+2024-03-12,13:35:00,"Taj Mahal, Agra",25524,Rainy,Tuesday,No,Festival,36,N/A,Central,Walking,,10
+2024-03-13,17:07:00,"Qutub Minar, Delhi",14681,Cloudy,Wednesday,No,Festival,33,N/A,East,Public,,10
+2024-03-14,05:33:00,"Sanchi Stupa, Madhya Pradesh",20904,Sunny,Thursday,No,National Holiday,30,N/A,West,Private,,10
+2024-03-15,17:40:00,"Varanasi Ghats, Varanasi",27197,Clear,Friday,No,Festival,22,N/A,South,Private,,10
+2024-03-16,07:07:00,"Gateway of India, Mumbai",19212,Clear,Saturday,No,Cultural Event,20,N/A,East,Walking,,10
+2024-03-17,12:36:00,"India Gate, Delhi",29128,Clear,Sunday,No,Cultural Event,31,N/A,West,Public,,11
+2024-03-18,23:28:00,"Taj Mahal, Agra",28962,Clear,Monday,No,Festival,32,N/A,East,Walking,,11
+2024-03-19,06:54:00,"Sanchi Stupa, Madhya Pradesh",9833,Rainy,Tuesday,No,National Holiday,26,N/A,South,Public,,11
+2024-03-20,15:56:00,"India Gate, Delhi",48128,Clear,Wednesday,No,Festival,33,N/A,Central,Private,,11
+2024-03-21,04:33:00,"Mecca Masjid, Hyderabad",1811,Cloudy,Thursday,No,Regular Day,25,N/A,North,Walking,,11
+2024-03-22,15:22:00,"Red Fort, Delhi",3503,Cloudy,Friday,No,Cultural Event,29,N/A,South,Public,,11
+2024-03-23,18:20:00,"Varanasi Ghats, Varanasi",21821,Clear,Saturday,No,National Holiday,26,N/A,West,Public,,11
+2024-03-24,00:21:00,"Gateway of India, Mumbai",25805,Clear,Sunday,Yes,National Holiday,21,National Holiday,West,Walking,,12
+2024-03-25,10:20:00,"Taj Mahal, Agra",34609,Rainy,Monday,Yes,National Holiday,29,National Holiday,Central,Public,,12
+2024-03-26,20:43:00,"Gateway of India, Mumbai",15000,Sunny,Tuesday,No,Cultural Event,27,N/A,West,Public,,12
+2024-03-27,20:47:00,"Taj Mahal, Agra",20000,Sunny,Wednesday,No,Regular Day,32,N/A,South,Public,,12
+2024-03-28,22:14:00,"Taj Mahal, Agra",32538,Sunny,Thursday,No,Festival,24,N/A,Central,Walking,,12
+2024-03-29,03:39:00,"Mecca Masjid, Hyderabad",6245,Sunny,Friday,Yes,Cultural Event,21,National Holiday,South,Walking,,12
+2024-03-30,02:43:00,"Taj Mahal, Agra",36878,Cloudy,Saturday,No,Festival,38,N/A,North,Public,,12
+2024-03-31,14:12:00,"Red Fort, Delhi",8832,Rainy,Sunday,No,Cultural Event,33,N/A,North,Walking,,13
+2024-04-01,21:17:00,"Varanasi Ghats, Varanasi",6942,Rainy,Monday,No,Cultural Event,33,N/A,South,Public,,13
+2024-04-02,13:41:00,"Sanchi Stupa, Madhya Pradesh",8953,Clear,Tuesday,No,Festival,37,N/A,South,Walking,,13
+2024-04-03,10:05:00,"Taj Mahal, Agra",18904,Clear,Wednesday,No,Cultural Event,21,N/A,North,Walking,,13
+2024-04-04,12:20:00,"Mecca Masjid, Hyderabad",21372,Sunny,Thursday,No,National Holiday,38,N/A,East,Walking,,13
+2024-04-05,13:05:00,"India Gate, Delhi",33331,Cloudy,Friday,Yes,Regular Day,34,National Holiday,East,Private,,13
+2024-04-06,08:30:00,"Taj Mahal, Agra",21235,Rainy,Saturday,No,Regular Day,36,N/A,North,Public,,13
+2024-04-07,19:45:00,"Sanchi Stupa, Madhya Pradesh",3568,Cloudy,Sunday,No,Regular Day,22,,East,Public,,14
+2024-04-08,11:12:00,"Varanasi Ghats, Varanasi",10000,Clear,Monday,No,Regular Day,32,,South,Private,,14
+2024-04-09,03:41:00,"Sanchi Stupa, Madhya Pradesh",16833,Cloudy,Tuesday,Yes,Festival,25,National Holiday,South,Walking,,14
+2024-04-10,13:14:00,"India Gate, Delhi",45453,Cloudy,Wednesday,No,Festival,36,N/A,East,Public,,14
+2024-04-11,09:07:00,"Taj Mahal, Agra",38249,Clear,Thursday,Yes,Festival,28,National Holiday,West,Private,,14
+2024-04-12,18:36:00,"Red Fort, Delhi",8000,Clear,Friday,No,Regular Day,34,N/A,North,Public,,14
+2024-04-13,11:04:00,"Qutub Minar, Delhi",27409,Cloudy,Saturday,Yes,Festival,36,National Holiday,East,Public,,14
+2024-04-14,09:17:00,"Qutub Minar, Delhi",12251,Cloudy,Sunday,Yes,Cultural Event,37,National Holiday,North,Walking,,15
+2024-04-15,06:31:00,"Mecca Masjid, Hyderabad",18816,Sunny,Monday,No,National Holiday,20,N/A,North,Public,,15
+2024-04-16,05:02:00,"Gateway of India, Mumbai",15000,Clear,Tuesday,No,Regular Day,27,N/A,North,Walking,,15
+2024-04-17,23:03:00,"Qutub Minar, Delhi",21708,Sunny,Wednesday,Yes,Festival,39,National Holiday,West,Walking,,15
+2024-04-18,13:37:00,"Mecca Masjid, Hyderabad",3000,Clear,Thursday,No,Regular Day,36,N/A,Central,Walking,,15
+2024-04-19,21:52:00,"Sanchi Stupa, Madhya Pradesh",2000,Sunny,Friday,No,Regular Day,29,N/A,West,Public,,15
+2024-04-20,11:12:00,"Qutub Minar, Delhi",14381,Cloudy,Saturday,No,National Holiday,38,N/A,North,Private,,15
+2024-04-21,13:15:00,"Red Fort, Delhi",22434,Rainy,Sunday,Yes,Festival,24,National Holiday,South,Walking,,16
+2024-04-22,13:09:00,"Red Fort, Delhi",19530,Sunny,Monday,No,Festival,35,N/A,North,Public,,16
+2024-04-23,04:20:00,"Sanchi Stupa, Madhya Pradesh",10274,Sunny,Tuesday,No,National Holiday,25,N/A,South,Private,,16
+2024-04-24,02:47:00,"Gateway of India, Mumbai",24104,Sunny,Wednesday,No,Festival,29,N/A,North,Private,,16
+2024-04-25,11:53:00,"Red Fort, Delhi",5290,Cloudy,Thursday,No,Regular Day,24,N/A,North,Walking,,16
+2024-04-26,08:54:00,"India Gate, Delhi",24127,Rainy,Friday,No,Cultural Event,20,N/A,Central,Walking,,16
+2024-04-27,00:22:00,"Qutub Minar, Delhi",14170,Cloudy,Saturday,No,Regular Day,34,N/A,East,Private,,16
+2024-04-28,02:10:00,"India Gate, Delhi",32286,Sunny,Sunday,No,Regular Day,23,N/A,West,Walking,,17
+2024-04-29,13:20:00,"Mecca Masjid, Hyderabad",16399,Rainy,Monday,No,National Holiday,20,N/A,East,Walking,,17
+2024-04-30,22:01:00,"Varanasi Ghats, Varanasi",7661,Cloudy,Tuesday,No,Regular Day,34,N/A,East,Walking,,17
+2024-05-01,12:05:00,"Varanasi Ghats, Varanasi",25000,Clear,Wednesday,No,Festival,29,N/A,South,Private,,17
+2024-05-02,11:35:00,"Red Fort, Delhi",6754,Cloudy,Thursday,No,Regular Day,36,N/A,South,Public,,17
+2024-05-03,06:17:00,"Varanasi Ghats, Varanasi",7277,Sunny,Friday,No,Regular Day,29,N/A,North,Walking,,17
+2024-05-04,08:46:00,"Qutub Minar, Delhi",9768,Clear,Saturday,No,Regular Day,33,N/A,Central,Walking,,17
+2024-05-05,14:10:00,"Taj Mahal, Agra",38907,Sunny,Sunday,No,Festival,32,N/A,Central,Public,,18
+2024-05-06,14:31:00,"Taj Mahal, Agra",20000,Clear,Monday,No,Regular Day,20,N/A,South,Walking,,18
+2024-05-07,18:06:00,"India Gate, Delhi",27265,Cloudy,Tuesday,No,Cultural Event,20,N/A,East,Public,,18
+2024-05-08,16:40:00,"Qutub Minar, Delhi",22611,Clear,Wednesday,Yes,National Holiday,23,National Holiday,Central,Private,,18
+2024-05-09,09:57:00,"India Gate, Delhi",28232,Cloudy,Thursday,No,Cultural Event,24,N/A,East,Public,,18
+2024-05-10,23:01:00,"Taj Mahal, Agra",18425,Cloudy,Friday,No,Cultural Event,26,N/A,North,Public,,18
+2024-05-11,13:12:00,"Taj Mahal, Agra",33680,Sunny,Saturday,No,National Holiday,20,N/A,West,Private,,18
+2024-05-12,18:30:00,"Sanchi Stupa, Madhya Pradesh",20257,Rainy,Sunday,No,National Holiday,35,N/A,North,Walking,,19
+2024-05-13,18:21:00,"Qutub Minar, Delhi",24681,Clear,Monday,No,National Holiday,33,N/A,North,Private,,19
+2024-05-14,09:57:00,"Sanchi Stupa, Madhya Pradesh",500,Cloudy,Tuesday,No,Regular Day,26,N/A,East,Public,,19
+2024-05-15,16:42:00,"Sanchi Stupa, Madhya Pradesh",8881,Clear,Wednesday,No,Festival,23,N/A,North,Private,,19
+2024-05-16,16:41:00,"Qutub Minar, Delhi",18076,Sunny,Thursday,No,National Holiday,33,N/A,North,Private,,19
+2024-05-17,23:58:00,"Sanchi Stupa, Madhya Pradesh",17763,Cloudy,Friday,No,Festival,30,N/A,West,Public,,19
+2024-05-18,13:29:00,"Qutub Minar, Delhi",11127,Cloudy,Saturday,No,Cultural Event,35,N/A,Central,Public,,19
+2024-05-19,14:40:00,"Qutub Minar, Delhi",19076,Sunny,Sunday,No,Festival,35,N/A,Central,Walking,,20
+2024-05-20,04:17:00,"Varanasi Ghats, Varanasi",13933,Rainy,Monday,No,Festival,20,N/A,North,Public,,20
+2024-05-21,00:46:00,"India Gate, Delhi",28651,Rainy,Tuesday,No,Regular Day,28,N/A,West,Walking,,20
+2024-05-22,03:17:00,"Varanasi Ghats, Varanasi",28329,Clear,Wednesday,No,National Holiday,24,N/A,West,Walking,,20
+2024-05-23,20:10:00,"Red Fort, Delhi",9373,Cloudy,Thursday,Yes,Regular Day,28,National Holiday,North,Walking,,20
+2024-05-24,00:56:00,"Taj Mahal, Agra",27721,Clear,Friday,No,National Holiday,32,N/A,South,Public,,20
+2024-05-25,09:49:00,"Red Fort, Delhi",10832,Cloudy,Saturday,No,Cultural Event,32,N/A,Central,Private,,20
+2024-05-26,18:31:00,"India Gate, Delhi",32899,Cloudy,Sunday,No,Cultural Event,25,N/A,North,Public,,21
+2024-05-27,13:24:00,"Varanasi Ghats, Varanasi",10000,Clear,Monday,No,Cultural Event,32,N/A,East,Public,,21
+2024-05-28,15:56:00,"Gateway of India, Mumbai",13188,Cloudy,Tuesday,No,Cultural Event,37,N/A,South,Public,,21
+2024-05-29,05:22:00,"Gateway of India, Mumbai",27926,Clear,Wednesday,No,Festival,27,N/A,North,Public,,21
+2024-05-30,11:03:00,"Qutub Minar, Delhi",20634,Clear,Thursday,No,National Holiday,38,N/A,Central,Walking,,21
+2024-05-31,05:18:00,"Qutub Minar, Delhi",10000,Sunny,Friday,No,Cultural Event,29,N/A,North,Walking,,21
+2024-06-01,14:44:00,"Gateway of India, Mumbai",16530,Sunny,Saturday,No,Cultural Event,39,N/A,East,Public,,21
+2024-06-02,19:39:00,"India Gate, Delhi",50000,Clear,Sunday,No,Festival,28,N/A,West,Private,,22
+2024-06-03,12:21:00,"Taj Mahal, Agra",34873,Sunny,Monday,No,National Holiday,26,N/A,East,Private,,22
+2024-06-04,03:14:00,"Gateway of India, Mumbai",21873,Sunny,Tuesday,No,National Holiday,23,N/A,South,Walking,,22
+2024-06-05,23:34:00,"Mecca Masjid, Hyderabad",12239,Cloudy,Wednesday,No,Festival,34,N/A,South,Walking,,22
+2024-06-06,11:07:00,"Sanchi Stupa, Madhya Pradesh",9919,Clear,Thursday,No,National Holiday,26,N/A,North,Public,,22
+2024-06-07,21:59:00,"Gateway of India, Mumbai",15000,Clear,Friday,No,Regular Day,23,N/A,North,Public,,22
+2024-06-08,22:41:00,"Taj Mahal, Agra",29810,Clear,Saturday,No,Festival,37,N/A,Central,Private,,22
+2024-06-09,04:59:00,"Taj Mahal, Agra",21463,Rainy,Sunday,No,Regular Day,30,N/A,Central,Walking,,23
+2024-06-10,23:23:00,"Gateway of India, Mumbai",23597,Cloudy,Monday,No,Festival,21,N/A,South,Private,,23
+2024-06-11,21:04:00,"Mecca Masjid, Hyderabad",1368,Rainy,Tuesday,No,Cultural Event,21,N/A,South,Public,,23
+2024-06-12,13:24:00,"Qutub Minar, Delhi",16320,Rainy,Wednesday,No,Festival,29,N/A,South,Public,,23
+2024-06-13,05:30:00,"India Gate, Delhi",46386,Clear,Thursday,No,National Holiday,20,N/A,South,Public,,23
+2024-06-14,12:35:00,"Mecca Masjid, Hyderabad",9918,Clear,Friday,No,Festival,30,N/A,North,Private,,23
+2024-06-15,10:18:00,"Mecca Masjid, Hyderabad",4646,Sunny,Saturday,No,Regular Day,33,N/A,Central,Public,,23
+2024-06-16,03:39:00,"India Gate, Delhi",50000,Sunny,Sunday,No,Festival,22,N/A,East,Private,,24
+2024-06-17,01:52:00,"Varanasi Ghats, Varanasi",11169,Cloudy,Monday,Yes,Cultural Event,32,National Holiday,South,Public,,24
+2024-06-18,06:48:00,"India Gate, Delhi",36772,Sunny,Tuesday,No,Festival,38,N/A,Central,Private,,24
+2024-06-19,03:20:00,"Red Fort, Delhi",22749,Clear,Wednesday,No,Festival,35,N/A,Central,Private,,24
+2024-06-20,17:19:00,"Mecca Masjid, Hyderabad",1981,Rainy,Thursday,No,Cultural Event,23,N/A,South,Walking,,24
+2024-06-21,04:44:00,"Mecca Masjid, Hyderabad",9081,Sunny,Friday,No,Festival,25,N/A,South,Walking,,24
+2024-06-22,12:55:00,"Red Fort, Delhi",19359,Rainy,Saturday,No,Festival,27,N/A,South,Public,,24
+2024-06-23,12:37:00,"Qutub Minar, Delhi",10829,Cloudy,Sunday,No,Regular Day,21,N/A,South,Walking,,25
+2024-06-24,06:01:00,"Mecca Masjid, Hyderabad",1763,Rainy,Monday,No,Cultural Event,39,N/A,West,Private,,25
+2024-06-25,22:16:00,"Qutub Minar, Delhi",4906,Rainy,Tuesday,No,Cultural Event,30,N/A,West,Public,,25
+2024-06-26,20:08:00,"Sanchi Stupa, Madhya Pradesh",500,Rainy,Wednesday,No,Regular Day,26,N/A,North,Walking,,25
+2024-06-27,13:45:00,"Qutub Minar, Delhi",13557,Rainy,Thursday,No,National Holiday,21,N/A,North,Walking,,25
+2024-06-28,16:00:00,"Taj Mahal, Agra",18465,Cloudy,Friday,No,Regular Day,22,N/A,West,Public,,25
+2024-06-29,16:31:00,"Mecca Masjid, Hyderabad",5958,Sunny,Saturday,No,Cultural Event,32,N/A,South,Public,,25
+2024-06-30,04:39:00,"Sanchi Stupa, Madhya Pradesh",500,Rainy,Sunday,No,Cultural Event,23,N/A,South,Walking,,26
+2024-07-01,20:32:00,"Qutub Minar, Delhi",10000,Clear,Monday,No,Cultural Event,28,N/A,North,Public,,26
+2024-07-02,16:47:00,"Qutub Minar, Delhi",24577,Sunny,Tuesday,No,National Holiday,34,N/A,East,Walking,,26
+2024-07-03,03:59:00,"Mecca Masjid, Hyderabad",19299,Clear,Wednesday,No,National Holiday,31,N/A,North,Private,,26
+2024-07-04,04:58:00,"Qutub Minar, Delhi",10000,Clear,Thursday,No,Cultural Event,23,N/A,East,Walking,,26
+2024-07-05,03:51:00,"Red Fort, Delhi",23386,Sunny,Friday,No,National Holiday,37,N/A,East,Public,,26
+2024-07-06,11:54:00,"India Gate, Delhi",30340,Rainy,Saturday,No,Regular Day,21,N/A,South,Walking,,26
+2024-07-07,04:49:00,"Qutub Minar, Delhi",29703,Rainy,Sunday,Yes,National Holiday,28,National Holiday,North,Private,,27
+2024-07-08,05:19:00,"India Gate, Delhi",28656,Cloudy,Monday,No,Cultural Event,20,N/A,East,Walking,,27
+2024-07-09,10:42:00,"Red Fort, Delhi",18455,Rainy,Tuesday,No,Festival,28,N/A,North,Public,,27
+2024-07-10,15:56:00,"Qutub Minar, Delhi",10000,Clear,Wednesday,No,Cultural Event,26,N/A,East,Public,,27
+2024-07-11,16:22:00,"Mecca Masjid, Hyderabad",16345,Sunny,Thursday,No,National Holiday,21,N/A,North,Private,,27
+2024-07-12,15:47:00,"Red Fort, Delhi",13653,Clear,Friday,No,National Holiday,28,N/A,East,Public,,27
+2024-07-13,06:45:00,"Red Fort, Delhi",28447,Cloudy,Saturday,No,Festival,31,N/A,Central,Walking,,27
+2024-07-14,00:44:00,"Mecca Masjid, Hyderabad",5442,Clear,Sunday,No,Cultural Event,30,N/A,North,Public,,28
+2024-07-15,18:41:00,"Taj Mahal, Agra",18193,Rainy,Monday,No,Cultural Event,30,N/A,North,Walking,,28
+2024-07-16,10:54:00,"Qutub Minar, Delhi",8042,Cloudy,Tuesday,No,Cultural Event,26,N/A,East,Walking,,28
+2024-07-17,20:04:00,"Qutub Minar, Delhi",9407,Cloudy,Wednesday,Yes,Regular Day,26,National Holiday,East,Public,,28
+2024-07-18,09:04:00,"Red Fort, Delhi",5706,Rainy,Thursday,No,Regular Day,39,N/A,Central,Private,,28
+2024-07-19,04:30:00,"Mecca Masjid, Hyderabad",21788,Sunny,Friday,No,Festival,30,N/A,West,Private,,28
+2024-07-20,15:15:00,"Gateway of India, Mumbai",36636,Sunny,Saturday,No,National Holiday,23,N/A,South,Public,,28
+2024-07-21,13:30:00,"Mecca Masjid, Hyderabad",15510,Clear,Sunday,No,National Holiday,30,N/A,West,Walking,,29
+2024-07-22,07:53:00,"Varanasi Ghats, Varanasi",19108,Sunny,Monday,No,Festival,34,N/A,North,Public,,29
+2024-07-23,09:38:00,"Qutub Minar, Delhi",28764,Sunny,Tuesday,No,Festival,37,N/A,East,Private,,29
+2024-07-24,08:42:00,"Qutub Minar, Delhi",28069,Cloudy,Wednesday,No,National Holiday,34,N/A,East,Public,,29
+2024-07-25,19:47:00,"Varanasi Ghats, Varanasi",7560,Cloudy,Thursday,No,Regular Day,34,N/A,East,Public,,29
+2024-07-26,01:31:00,"Qutub Minar, Delhi",15266,Rainy,Friday,No,Festival,38,N/A,North,Walking,,29
+2024-07-27,14:00:00,"Varanasi Ghats, Varanasi",11324,Cloudy,Saturday,No,Regular Day,36,N/A,North,Walking,,29
+2024-07-28,12:08:00,"Varanasi Ghats, Varanasi",14957,Sunny,Sunday,No,Regular Day,27,N/A,East,Public,,30
+2024-07-29,13:48:00,"Mecca Masjid, Hyderabad",10989,Rainy,Monday,No,Festival,27,N/A,East,Walking,,30
+2024-07-30,21:00:00,"Mecca Masjid, Hyderabad",11965,Sunny,Tuesday,No,Festival,28,N/A,North,Walking,,30
+2024-07-31,08:46:00,"Mecca Masjid, Hyderabad",1447,Rainy,Wednesday,No,Regular Day,25,N/A,Central,Private,,30
+2024-08-01,02:20:00,"Qutub Minar, Delhi",10000,Sunny,Thursday,No,Regular Day,30,N/A,Central,Private,,30
+2024-08-02,04:44:00,"Sanchi Stupa, Madhya Pradesh",816,Cloudy,Friday,No,Regular Day,37,N/A,South,Walking,,30
+2024-08-03,02:01:00,"Red Fort, Delhi",9919,Rainy,Saturday,No,Cultural Event,24,N/A,West,Private,,30
+2024-08-04,02:39:00,"Red Fort, Delhi",11061,Rainy,Sunday,No,Cultural Event,28,N/A,South,Walking,,31
+2024-08-05,21:28:00,"Mecca Masjid, Hyderabad",14114,Rainy,Monday,No,Festival,37,N/A,North,Walking,,31
+2024-08-06,00:47:00,"Taj Mahal, Agra",20000,Sunny,Tuesday,No,Cultural Event,39,N/A,Central,Public,,31
+2024-08-07,11:35:00,"Varanasi Ghats, Varanasi",8187,Rainy,Wednesday,No,Cultural Event,33,N/A,Central,Walking,,31
+2024-08-08,16:04:00,"Qutub Minar, Delhi",8213,Rainy,Thursday,No,Regular Day,33,N/A,West,Private,,31
+2024-08-09,06:51:00,"Taj Mahal, Agra",20000,Clear,Friday,No,Cultural Event,36,N/A,North,Private,,31
+2024-08-10,03:35:00,"Gateway of India, Mumbai",18758,Sunny,Saturday,No,Regular Day,24,N/A,South,Private,,31
+2024-08-11,07:07:00,"Gateway of India, Mumbai",31472,Rainy,Sunday,No,Festival,29,N/A,North,Walking,,32
+2024-08-12,14:58:00,"Red Fort, Delhi",7225,Cloudy,Monday,No,Regular Day,23,N/A,Central,Private,,32
+2024-08-13,13:34:00,"Taj Mahal, Agra",38142,Sunny,Tuesday,No,National Holiday,26,N/A,North,Private,,32
+2024-08-14,14:26:00,"Taj Mahal, Agra",32109,Cloudy,Wednesday,No,National Holiday,20,N/A,North,Walking,,32
+2024-08-15,13:28:00,"Red Fort, Delhi",23586,Rainy,Thursday,Yes,National Holiday,30,National Holiday,East,Public,,32
+2024-08-16,03:16:00,"Varanasi Ghats, Varanasi",24984,Rainy,Friday,No,National Holiday,31,N/A,East,Public,,32
+2024-08-17,00:17:00,"Qutub Minar, Delhi",11368,Rainy,Saturday,No,Regular Day,26,N/A,East,Public,,32
+2024-08-18,02:32:00,"Gateway of India, Mumbai",16257,Clear,Sunday,No,Cultural Event,27,N/A,East,Private,,33
+2024-08-19,04:23:00,"Mecca Masjid, Hyderabad",17030,Sunny,Monday,Yes,Festival,22,National Holiday,Central,Private,,33
+2024-08-20,21:33:00,"Taj Mahal, Agra",39808,Clear,Tuesday,No,National Holiday,26,N/A,East,Walking,,33
+2024-08-21,17:51:00,"Gateway of India, Mumbai",23370,Rainy,Wednesday,No,National Holiday,27,N/A,South,Private,,33
+2024-08-22,13:45:00,"Taj Mahal, Agra",38057,Sunny,Thursday,No,Festival,20,N/A,North,Private,,33
+2024-08-23,04:21:00,"India Gate, Delhi",34296,Cloudy,Friday,No,Festival,34,N/A,Central,Walking,,33
+2024-08-24,04:30:00,"India Gate, Delhi",37800,Sunny,Saturday,No,Festival,21,N/A,South,Public,,33
+2024-08-25,15:47:00,"Sanchi Stupa, Madhya Pradesh",6702,Clear,Sunday,No,Cultural Event,37,N/A,North,Walking,,34
+2024-08-26,00:24:00,"Sanchi Stupa, Madhya Pradesh",13154,Clear,Monday,Yes,National Holiday,20,National Holiday,West,Public,,34
+2024-08-27,16:00:00,"Taj Mahal, Agra",20000,Clear,Tuesday,No,Cultural Event,32,N/A,North,Public,,34
+2024-08-28,07:02:00,"Taj Mahal, Agra",18806,Sunny,Wednesday,No,Cultural Event,24,N/A,West,Private,,34
+2024-08-29,21:08:00,"Red Fort, Delhi",19320,Sunny,Thursday,No,Festival,32,N/A,West,Private,,34
+2024-08-30,19:57:00,"Qutub Minar, Delhi",27669,Clear,Friday,No,Festival,25,N/A,West,Private,,34
+2024-08-31,09:42:00,"Qutub Minar, Delhi",12021,Clear,Saturday,No,Regular Day,28,N/A,South,Private,,34
+2024-09-01,20:09:00,"Sanchi Stupa, Madhya Pradesh",13198,Clear,Sunday,No,National Holiday,28,N/A,Central,Private,,35
+2024-09-02,15:12:00,"Gateway of India, Mumbai",15000,Sunny,Monday,No,Regular Day,21,N/A,West,Private,,35
+2024-09-03,09:02:00,"India Gate, Delhi",27643,Rainy,Tuesday,No,Cultural Event,34,N/A,East,Public,,35
+2024-09-04,17:49:00,"Qutub Minar, Delhi",10000,Clear,Wednesday,No,Regular Day,29,N/A,Central,Walking,,35
+2024-09-05,05:09:00,"Gateway of India, Mumbai",12328,Clear,Thursday,No,Cultural Event,37,N/A,South,Public,,35
+2024-09-06,11:24:00,"Sanchi Stupa, Madhya Pradesh",10626,Rainy,Friday,No,Festival,38,N/A,Central,Walking,,35
+2024-09-07,12:17:00,"Sanchi Stupa, Madhya Pradesh",6646,Sunny,Saturday,Yes,Cultural Event,35,National Holiday,East,Walking,,35
+2024-09-08,23:04:00,"India Gate, Delhi",47402,Cloudy,Sunday,No,National Holiday,26,N/A,West,Private,,36
+2024-09-09,16:36:00,"Red Fort, Delhi",8000,Sunny,Monday,No,Cultural Event,23,N/A,North,Walking,,36
+2024-09-10,16:46:00,"Gateway of India, Mumbai",23308,Rainy,Tuesday,No,National Holiday,20,N/A,South,Public,,36
+2024-09-11,16:49:00,"Red Fort, Delhi",14548,Clear,Wednesday,No,Festival,38,N/A,North,Public,,36
+2024-09-12,02:47:00,"Red Fort, Delhi",27473,Clear,Thursday,No,Festival,38,N/A,North,Public,,36
+2024-09-13,00:52:00,"Qutub Minar, Delhi",10000,Sunny,Friday,No,Regular Day,36,N/A,West,Private,,36
+2024-09-14,04:40:00,"India Gate, Delhi",41821,Rainy,Saturday,No,National Holiday,29,N/A,East,Public,,36
+2024-09-15,20:45:00,"Qutub Minar, Delhi",25965,Cloudy,Sunday,Yes,Festival,33,National Holiday,South,Public,,37
+2024-09-16,18:08:00,"Varanasi Ghats, Varanasi",12555,Clear,Monday,Yes,Regular Day,28,National Holiday,North,Private,,37
+2024-09-17,06:39:00,"Taj Mahal, Agra",18661,Cloudy,Tuesday,No,Cultural Event,38,N/A,West,Private,,37
+2024-09-18,23:49:00,"India Gate, Delhi",30000,Sunny,Wednesday,No,Regular Day,38,N/A,East,Walking,,37
+2024-09-19,23:46:00,"Sanchi Stupa, Madhya Pradesh",972,Clear,Thursday,No,Regular Day,39,N/A,South,Private,,37
+2024-09-20,06:11:00,"Taj Mahal, Agra",27879,Sunny,Friday,No,National Holiday,39,N/A,North,Public,,37
+2024-09-21,13:12:00,"Mecca Masjid, Hyderabad",18147,Cloudy,Saturday,No,National Holiday,32,N/A,East,Public,,37
+2024-09-22,10:41:00,"Mecca Masjid, Hyderabad",13844,Cloudy,Sunday,No,Festival,38,N/A,West,Private,,38
+2024-09-23,13:38:00,"India Gate, Delhi",30000,Clear,Monday,No,Regular Day,31,N/A,East,Walking,,38
+2024-09-24,17:24:00,"Qutub Minar, Delhi",6339,Cloudy,Tuesday,No,Cultural Event,34,N/A,East,Walking,,38
+2024-09-25,16:16:00,"Qutub Minar, Delhi",26479,Clear,Wednesday,No,Festival,21,N/A,North,Public,,38
+2024-09-26,22:25:00,"Varanasi Ghats, Varanasi",5969,Cloudy,Thursday,No,Regular Day,29,N/A,East,Public,,38
+2024-09-27,14:44:00,"Taj Mahal, Agra",20000,Sunny,Friday,No,Cultural Event,33,N/A,West,Private,,38
+2024-09-28,02:08:00,"India Gate, Delhi",36693,Clear,Saturday,No,National Holiday,26,N/A,South,Walking,,38
+2024-09-29,08:05:00,"Taj Mahal, Agra",27390,Rainy,Sunday,No,National Holiday,38,N/A,South,Walking,,39
+2024-09-30,03:06:00,"Taj Mahal, Agra",27032,Rainy,Monday,No,Festival,36,N/A,North,Private,,39
+2024-10-01,13:53:00,"Qutub Minar, Delhi",22619,Cloudy,Tuesday,No,Festival,20,N/A,South,Walking,,39
+2024-10-02,05:16:00,"Gateway of India, Mumbai",28247,Rainy,Wednesday,Yes,Festival,24,National Holiday,North,Walking,,39
+2024-10-03,23:52:00,"Varanasi Ghats, Varanasi",8712,Rainy,Thursday,No,Regular Day,28,N/A,South,Private,,39
+2024-10-04,01:18:00,"Qutub Minar, Delhi",10000,Sunny,Friday,No,Cultural Event,28,N/A,West,Private,,39
+2024-10-05,22:29:00,"Mecca Masjid, Hyderabad",23647,Cloudy,Saturday,No,Festival,32,N/A,North,Public,,39
+2024-10-06,20:09:00,"Varanasi Ghats, Varanasi",22233,Clear,Sunday,No,Festival,28,N/A,East,Walking,,40
+2024-10-07,04:17:00,"Varanasi Ghats, Varanasi",24116,Clear,Monday,No,National Holiday,26,N/A,North,Public,,40
+2024-10-08,20:12:00,"Mecca Masjid, Hyderabad",11374,Sunny,Tuesday,No,Festival,25,N/A,Central,Walking,,40
+2024-10-09,04:07:00,"Red Fort, Delhi",13075,Clear,Wednesday,No,National Holiday,32,N/A,South,Public,,40
+2024-10-10,00:41:00,"Mecca Masjid, Hyderabad",14371,Clear,Thursday,Yes,National Holiday,25,National Holiday,West,Private,,40
+2024-10-11,01:33:00,"Taj Mahal, Agra",22152,Sunny,Friday,Yes,Cultural Event,20,National Holiday,East,Private,,40
+2024-10-12,13:23:00,"Red Fort, Delhi",24059,Cloudy,Saturday,Yes,Festival,24,National Holiday,West,Walking,,40
+2024-10-13,10:25:00,"India Gate, Delhi",50000,Rainy,Sunday,No,National Holiday,30,N/A,East,Public,,41
+2024-10-14,22:09:00,"Sanchi Stupa, Madhya Pradesh",500,Rainy,Monday,No,Cultural Event,24,N/A,West,Private,,41
+2024-10-15,17:07:00,"India Gate, Delhi",43840,Rainy,Tuesday,No,National Holiday,26,N/A,East,Public,,41
+2024-10-16,22:53:00,"Sanchi Stupa, Madhya Pradesh",582,Rainy,Wednesday,No,Regular Day,34,N/A,South,Walking,,41
+2024-10-17,12:34:00,"Mecca Masjid, Hyderabad",9975,Rainy,Thursday,Yes,National Holiday,25,National Holiday,North,Private,,41
+2024-10-18,21:24:00,"Qutub Minar, Delhi",10000,Sunny,Friday,No,Regular Day,23,N/A,North,Public,,41
+2024-10-19,10:20:00,"Mecca Masjid, Hyderabad",15346,Cloudy,Saturday,No,Festival,23,N/A,East,Walking,,41
+2024-10-20,12:15:00,"Taj Mahal, Agra",35661,Sunny,Sunday,Yes,National Holiday,35,National Holiday,North,Public,,42
+2024-10-21,11:51:00,"India Gate, Delhi",33326,Cloudy,Monday,No,Festival,22,N/A,South,Private,,42
+2024-10-22,14:56:00,"Gateway of India, Mumbai",26752,Clear,Tuesday,No,National Holiday,28,N/A,Central,Walking,,42
+2024-10-23,21:28:00,"Varanasi Ghats, Varanasi",23105,Sunny,Wednesday,No,Festival,36,N/A,North,Public,,42
+2024-10-24,02:26:00,"Gateway of India, Mumbai",13413,Cloudy,Thursday,No,Cultural Event,27,N/A,Central,Private,,42
+2024-10-25,04:18:00,"Qutub Minar, Delhi",6321,Cloudy,Friday,No,Cultural Event,33,N/A,East,Walking,,42
+2024-10-26,04:46:00,"Sanchi Stupa, Madhya Pradesh",13713,Cloudy,Saturday,No,National Holiday,28,N/A,North,Walking,,42
+2024-10-27,01:24:00,"Qutub Minar, Delhi",10785,Rainy,Sunday,No,Cultural Event,27,N/A,West,Public,,43
+2024-10-28,16:52:00,"Sanchi Stupa, Madhya Pradesh",500,Clear,Monday,No,Regular Day,24,N/A,Central,Public,,43
+2024-10-29,01:49:00,"Varanasi Ghats, Varanasi",16259,Sunny,Tuesday,No,Festival,25,N/A,East,Walking,,43
+2024-10-30,08:30:00,"Gateway of India, Mumbai",13476,Rainy,Wednesday,No,Regular Day,35,N/A,Central,Private,,43
+2024-10-31,07:41:00,"Taj Mahal, Agra",20344,Clear,Thursday,Yes,Cultural Event,27,National Holiday,Central,Public,,43
+2024-11-01,06:10:00,"Sanchi Stupa, Madhya Pradesh",14489,Sunny,Friday,No,Festival,39,N/A,East,Private,,43
+2024-11-02,11:47:00,"Qutub Minar, Delhi",11652,Cloudy,Saturday,Yes,Cultural Event,29,National Holiday,South,Private,,43
+2024-11-03,22:08:00,"Sanchi Stupa, Madhya Pradesh",21232,Cloudy,Sunday,Yes,National Holiday,33,National Holiday,South,Public,,44
+2024-11-04,15:08:00,"Gateway of India, Mumbai",27234,Rainy,Monday,No,National Holiday,26,N/A,East,Walking,,44
+2024-11-05,21:05:00,"Taj Mahal, Agra",17458,Cloudy,Tuesday,No,Regular Day,22,N/A,South,Public,,44
+2024-11-06,09:21:00,"Gateway of India, Mumbai",32968,Clear,Wednesday,No,Festival,33,N/A,West,Walking,,44
+2024-11-07,06:31:00,"Qutub Minar, Delhi",12596,Cloudy,Thursday,Yes,Cultural Event,21,National Holiday,Central,Walking,,44
+2024-11-08,01:43:00,"Qutub Minar, Delhi",18422,Sunny,Friday,No,Festival,26,N/A,South,Walking,,44
+2024-11-09,23:53:00,"Mecca Masjid, Hyderabad",5294,Rainy,Saturday,No,Cultural Event,23,N/A,Central,Public,,44
+2024-11-10,06:16:00,"Taj Mahal, Agra",22371,Cloudy,Sunday,No,Cultural Event,32,N/A,Central,Public,,45
+2024-11-11,17:39:00,"Varanasi Ghats, Varanasi",7761,Rainy,Monday,No,Regular Day,32,N/A,West,Walking,,45
+2024-11-12,06:31:00,"Red Fort, Delhi",6779,Cloudy,Tuesday,No,Cultural Event,25,N/A,South,Walking,,45
+2024-11-13,05:22:00,"Mecca Masjid, Hyderabad",3000,Clear,Wednesday,No,Regular Day,24,N/A,Central,Private,,45
+2024-11-14,11:24:00,"Taj Mahal, Agra",15505,Cloudy,Thursday,No,Cultural Event,36,N/A,Central,Private,,45
+2024-11-15,07:40:00,"Varanasi Ghats, Varanasi",18583,Sunny,Friday,Yes,National Holiday,23,National Holiday,Central,Walking,,45
+2024-11-16,15:35:00,"Red Fort, Delhi",8586,Rainy,Saturday,No,Cultural Event,24,N/A,North,Private,,45
+2024-11-17,13:01:00,"Varanasi Ghats, Varanasi",29212,Sunny,Sunday,No,Festival,32,N/A,East,Private,,46
+2024-11-18,08:22:00,"Sanchi Stupa, Madhya Pradesh",6626,Rainy,Monday,No,National Holiday,39,N/A,Central,Private,,46
+2024-11-19,19:19:00,"Qutub Minar, Delhi",12472,Rainy,Tuesday,No,National Holiday,26,N/A,Central,Public,,46
+2024-11-20,16:09:00,"India Gate, Delhi",47644,Clear,Wednesday,No,Festival,21,N/A,East,Private,,46
+2024-11-21,10:39:00,"Red Fort, Delhi",6953,Cloudy,Thursday,No,Regular Day,22,N/A,Central,Walking,,46
+2024-11-22,23:42:00,"Taj Mahal, Agra",19135,Cloudy,Friday,No,Regular Day,33,N/A,South,Public,,46
+2024-11-23,09:14:00,"Mecca Masjid, Hyderabad",4583,Cloudy,Saturday,No,Cultural Event,39,N/A,South,Walking,,46
+2024-11-24,07:33:00,"Qutub Minar, Delhi",28822,Sunny,Sunday,Yes,Festival,38,National Holiday,South,Walking,,47
+2024-11-25,06:56:00,"Taj Mahal, Agra",17542,Cloudy,Monday,No,Regular Day,38,N/A,Central,Private,,47
+2024-11-26,20:18:00,"Sanchi Stupa, Madhya Pradesh",2000,Clear,Tuesday,No,Regular Day,25,N/A,Central,Private,,47
+2024-11-27,23:00:00,"Qutub Minar, Delhi",25814,Sunny,Wednesday,No,National Holiday,24,N/A,Central,Walking,,47
+2024-11-28,23:31:00,"Qutub Minar, Delhi",15496,Sunny,Thursday,No,Festival,24,N/A,Central,Private,,47
+2024-11-29,07:13:00,"Varanasi Ghats, Varanasi",18185,Clear,Friday,No,National Holiday,28,N/A,North,Public,,47
+2024-11-30,17:56:00,"India Gate, Delhi",33413,Sunny,Saturday,No,Regular Day,32,N/A,North,Private,,47
+2024-12-01,09:34:00,"Taj Mahal, Agra",31393,Sunny,Sunday,No,National Holiday,37,N/A,South,Public,,48
+2024-12-02,06:05:00,"Varanasi Ghats, Varanasi",7833,Rainy,Monday,No,Cultural Event,32,N/A,West,Walking,,48
+2024-12-03,14:07:00,"Gateway of India, Mumbai",27715,Rainy,Tuesday,No,National Holiday,30,N/A,North,Private,,48
+2024-12-04,14:35:00,"Red Fort, Delhi",16889,Cloudy,Wednesday,No,Festival,29,N/A,Central,Public,,48
+2024-12-05,19:19:00,"Taj Mahal, Agra",18167,Cloudy,Thursday,No,Regular Day,39,N/A,South,Private,,48
+2024-12-06,03:44:00,"Taj Mahal, Agra",33923,Cloudy,Friday,No,National Holiday,29,N/A,East,Walking,,48
+2024-12-07,11:56:00,"Mecca Masjid, Hyderabad",18746,Rainy,Saturday,No,Festival,34,N/A,West,Private,,48
+2024-12-08,17:28:00,"Varanasi Ghats, Varanasi",11159,Rainy,Sunday,No,Regular Day,27,N/A,North,Public,,49
+2024-12-09,03:17:00,"Sanchi Stupa, Madhya Pradesh",13728,Rainy,Monday,No,Festival,27,N/A,West,Private,,49
+2024-12-10,16:15:00,"Varanasi Ghats, Varanasi",13474,Rainy,Tuesday,No,Festival,33,N/A,South,Public,,49
+2024-12-11,03:15:00,"India Gate, Delhi",28079,Cloudy,Wednesday,No,Regular Day,23,N/A,West,Walking,,49
+2024-12-12,19:43:00,"Taj Mahal, Agra",18229,Rainy,Thursday,No,Cultural Event,25,N/A,West,Private,,49
+2024-12-13,07:06:00,"Mecca Masjid, Hyderabad",10267,Clear,Friday,No,National Holiday,26,N/A,South,Walking,,49
+2024-12-14,14:43:00,"Red Fort, Delhi",29397,Clear,Saturday,No,National Holiday,39,N/A,East,Walking,,49
+2024-12-15,17:59:00,"Qutub Minar, Delhi",28019,Sunny,Sunday,No,National Holiday,25,N/A,Central,Private,,50
+2024-12-16,18:22:00,"Gateway of India, Mumbai",24898,Sunny,Monday,No,National Holiday,29,N/A,West,Walking,,50
+2024-12-17,00:36:00,"Gateway of India, Mumbai",29027,Rainy,Tuesday,No,Festival,30,N/A,North,Private,,50
+2024-12-18,15:56:00,"Taj Mahal, Agra",31841,Rainy,Wednesday,No,Festival,24,N/A,West,Public,,50
+2024-12-19,16:12:00,"Mecca Masjid, Hyderabad",3000,Clear,Thursday,No,Cultural Event,30,N/A,West,Public,,50
+2024-12-20,21:54:00,"Sanchi Stupa, Madhya Pradesh",500,Sunny,Friday,No,Regular Day,31,N/A,East,Public,,50
+2024-12-21,16:40:00,"Qutub Minar, Delhi",12776,Clear,Saturday,No,Cultural Event,23,N/A,South,Walking,,50
+2024-12-22,02:14:00,"Sanchi Stupa, Madhya Pradesh",11818,Sunny,Sunday,No,Festival,26,N/A,West,Walking,,51
+2024-12-23,17:20:00,"Sanchi Stupa, Madhya Pradesh",2000,Sunny,Monday,No,Regular Day,33,N/A,South,Private,,51
+2024-12-24,02:37:00,"Gateway of India, Mumbai",27302,Sunny,Tuesday,Yes,Festival,36,National Holiday,West,Public,,51
+2024-12-25,01:27:00,"Mecca Masjid, Hyderabad",6004,Sunny,Wednesday,Yes,Cultural Event,29,National Holiday,East,Walking,,51
+2024-12-26,23:34:00,"Qutub Minar, Delhi",9016,Cloudy,Thursday,No,Cultural Event,24,N/A,North,Public,,51
+2024-12-27,09:14:00,"Varanasi Ghats, Varanasi",8880,Rainy,Friday,No,Cultural Event,32,N/A,North,Private,,51
+2024-12-28,09:19:00,"Gateway of India, Mumbai",13012,Rainy,Saturday,No,Cultural Event,29,N/A,North,Private,,51
+2024-12-29,03:22:00,"Mecca Masjid, Hyderabad",4298,Sunny,Sunday,No,Regular Day,36,N/A,East,Public,,52
+2024-12-30,17:54:00,"Red Fort, Delhi",18884,Rainy,Monday,No,National Holiday,24,N/A,East,Walking,,52
+2024-12-31,06:17:00,"Red Fort, Delhi",5571,Rainy,Tuesday,No,Regular Day,20,N/A,East,Private,,52
+2025-01-01,07:23:00,"Mecca Masjid, Hyderabad",1131,Sunny,Wednesday,No,Cultural Event,30,N/A,East,Walking,,00
+2025-01-02,20:23:00,"Mecca Masjid, Hyderabad",3000,Sunny,Thursday,No,Cultural Event,26,N/A,East,Public,,00
+2025-01-03,09:50:00,"India Gate, Delhi",46113,Sunny,Friday,No,National Holiday,29,N/A,North,Public,,00
+2025-01-04,02:18:00,"Mecca Masjid, Hyderabad",2227,Rainy,Saturday,No,Regular Day,37,N/A,North,Private,,00
+2025-01-05,10:41:00,"Sanchi Stupa, Madhya Pradesh",3089,Sunny,Sunday,No,Regular Day,27,N/A,East,Walking,,01
+2025-01-06,19:13:00,"Red Fort, Delhi",8000,Clear,Monday,No,Cultural Event,26,N/A,North,Public,,01
+2025-01-07,15:51:00,"Taj Mahal, Agra",38128,Clear,Tuesday,No,Festival,36,N/A,South,Walking,,01
+2025-01-08,01:19:00,"Sanchi Stupa, Madhya Pradesh",21816,Sunny,Wednesday,No,National Holiday,28,N/A,West,Private,,01
+2025-01-09,08:03:00,"Qutub Minar, Delhi",20348,Cloudy,Thursday,No,Festival,28,N/A,North,Public,,01
+2025-01-10,08:59:00,"Mecca Masjid, Hyderabad",22759,Clear,Friday,No,National Holiday,28,N/A,North,Public,,01
+2025-01-11,01:30:00,"Gateway of India, Mumbai",27335,Clear,Saturday,No,Festival,26,N/A,Central,Walking,,01
+2025-01-12,14:18:00,"Qutub Minar, Delhi",14199,Clear,Sunday,No,Cultural Event,29,N/A,West,Walking,,02
+2025-01-13,21:22:00,"Red Fort, Delhi",4995,Rainy,Monday,No,Regular Day,21,N/A,East,Private,,02
+2025-01-14,14:28:00,"Taj Mahal, Agra",30750,Cloudy,Tuesday,No,Festival,25,N/A,Central,Private,,02
+2025-01-15,04:29:00,"Sanchi Stupa, Madhya Pradesh",19051,Clear,Wednesday,No,Festival,24,N/A,North,Private,,02
+2025-01-16,18:06:00,"Taj Mahal, Agra",31161,Cloudy,Thursday,No,National Holiday,38,N/A,Central,Public,,02
+2025-01-17,04:45:00,"Mecca Masjid, Hyderabad",3000,Sunny,Friday,No,Cultural Event,38,N/A,South,Public,,02
+2025-01-18,01:32:00,"Varanasi Ghats, Varanasi",11772,Clear,Saturday,No,Regular Day,25,N/A,Central,Public,,02
+2025-01-19,13:54:00,"Qutub Minar, Delhi",13524,Sunny,Sunday,No,Regular Day,22,N/A,South,Public,,03
+2025-01-20,03:16:00,"Varanasi Ghats, Varanasi",18206,Cloudy,Monday,No,National Holiday,30,N/A,East,Public,,03
+2025-01-21,08:09:00,"Taj Mahal, Agra",16027,Rainy,Tuesday,No,Regular Day,34,N/A,Central,Walking,,03
+2025-01-22,00:17:00,"Qutub Minar, Delhi",22976,Cloudy,Wednesday,No,National Holiday,24,N/A,South,Walking,,03
+2025-01-23,22:50:00,"Taj Mahal, Agra",18622,Clear,Thursday,No,Cultural Event,23,N/A,East,Public,,03
+2025-01-24,07:02:00,"Sanchi Stupa, Madhya Pradesh",9943,Sunny,Friday,No,National Holiday,31,N/A,South,Walking,,03
+2025-01-25,09:02:00,"Red Fort, Delhi",26343,Cloudy,Saturday,No,National Holiday,39,N/A,West,Public,,03
+2025-01-26,10:43:00,"Gateway of India, Mumbai",26415,Cloudy,Sunday,No,National Holiday,31,N/A,West,Walking,,04
+2025-01-27,11:04:00,"Taj Mahal, Agra",20000,Clear,Monday,No,Regular Day,36,N/A,North,Private,,04
+2025-01-28,17:09:00,"Qutub Minar, Delhi",10000,Clear,Tuesday,No,Cultural Event,37,N/A,North,Private,,04
+2025-01-29,06:51:00,"Gateway of India, Mumbai",24347,Clear,Wednesday,No,National Holiday,35,N/A,North,Private,,04
+2025-01-30,11:15:00,"Red Fort, Delhi",8000,Sunny,Thursday,No,Cultural Event,20,N/A,North,Private,,04
+2025-01-31,04:27:00,"Gateway of India, Mumbai",13582,Rainy,Friday,No,Cultural Event,20,N/A,South,Walking,,04
+2025-02-01,05:48:00,"Mecca Masjid, Hyderabad",2089,Rainy,Saturday,No,Regular Day,33,N/A,Central,Public,,04
+2025-02-02,04:14:00,"Red Fort, Delhi",17314,Rainy,Sunday,No,Festival,35,N/A,North,Walking,,05
+2025-02-03,21:31:00,"Qutub Minar, Delhi",8649,Rainy,Monday,No,Cultural Event,39,N/A,North,Public,,05
+2025-02-04,01:07:00,"Varanasi Ghats, Varanasi",10000,Clear,Tuesday,No,Cultural Event,32,N/A,West,Private,,05
+2025-02-05,20:48:00,"Qutub Minar, Delhi",8964,Cloudy,Wednesday,No,Cultural Event,24,N/A,West,Walking,,05
+2025-02-06,19:56:00,"Red Fort, Delhi",5603,Clear,Thursday,No,Regular Day,28,N/A,West,Public,,05
+2025-02-07,20:13:00,"Varanasi Ghats, Varanasi",15311,Sunny,Friday,No,Festival,25,N/A,South,Private,,05
+2025-02-08,17:40:00,"Sanchi Stupa, Madhya Pradesh",2412,Rainy,Saturday,No,Regular Day,23,N/A,West,Private,,05
+2025-02-09,11:07:00,"Varanasi Ghats, Varanasi",23059,Cloudy,Sunday,No,Festival,20,N/A,North,Walking,,06
+2025-02-10,11:58:00,"India Gate, Delhi",39443,Rainy,Monday,No,Festival,26,N/A,South,Public,,06
+2025-02-11,09:34:00,"Taj Mahal, Agra",20000,Clear,Tuesday,No,Cultural Event,23,N/A,West,Private,,06
+2025-02-12,13:57:00,"Qutub Minar, Delhi",16784,Cloudy,Wednesday,No,National Holiday,25,N/A,West,Public,,06
+2025-02-13,09:07:00,"Taj Mahal, Agra",18333,Rainy,Thursday,No,Cultural Event,33,N/A,West,Walking,,06
+2025-02-14,19:08:00,"Taj Mahal, Agra",36850,Sunny,Friday,No,Festival,29,N/A,South,Walking,,06
+2025-02-15,21:11:00,"Red Fort, Delhi",12825,Clear,Saturday,No,Regular Day,26,N/A,North,Walking,,06
+2025-02-16,23:20:00,"Mecca Masjid, Hyderabad",16071,Cloudy,Sunday,No,National Holiday,20,N/A,South,Walking,,07
+2025-02-17,12:09:00,"Mecca Masjid, Hyderabad",18641,Cloudy,Monday,No,National Holiday,28,N/A,North,Walking,,07
+2025-02-18,11:44:00,"Qutub Minar, Delhi",7523,Rainy,Tuesday,No,Regular Day,27,N/A,West,Private,,07
+2025-02-19,03:51:00,"Red Fort, Delhi",6576,Cloudy,Wednesday,No,Regular Day,38,N/A,West,Public,,07
+2025-02-20,14:44:00,"Red Fort, Delhi",13558,Clear,Thursday,No,National Holiday,20,N/A,East,Public,,07
+2025-02-21,21:20:00,"India Gate, Delhi",44228,Rainy,Friday,No,National Holiday,21,N/A,Central,Walking,,07
+2025-02-22,00:48:00,"Taj Mahal, Agra",42966,Sunny,Saturday,No,Festival,22,N/A,West,Walking,,07
+2025-02-23,13:36:00,"Qutub Minar, Delhi",11064,Rainy,Sunday,No,Regular Day,23,N/A,South,Public,,08
+2025-02-24,21:20:00,"Gateway of India, Mumbai",12610,Cloudy,Monday,No,Cultural Event,39,N/A,Central,Walking,,08
+2025-02-25,00:55:00,"India Gate, Delhi",27434,Rainy,Tuesday,No,Cultural Event,27,N/A,East,Walking,,08
+2025-02-26,08:45:00,"Mecca Masjid, Hyderabad",13559,Cloudy,Wednesday,No,Festival,36,N/A,North,Private,,08
+2025-02-27,12:47:00,"India Gate, Delhi",37827,Sunny,Thursday,No,National Holiday,29,N/A,East,Private,,08
+2025-02-28,15:29:00,"Varanasi Ghats, Varanasi",8418,Rainy,Friday,No,Regular Day,38,N/A,South,Public,,08
+2025-03-01,09:40:00,"India Gate, Delhi",34708,Clear,Saturday,No,Cultural Event,25,N/A,South,Public,,08
+2025-03-02,00:53:00,"Sanchi Stupa, Madhya Pradesh",13312,Clear,Sunday,No,Festival,20,N/A,North,Walking,,09
+2025-03-03,21:12:00,"Mecca Masjid, Hyderabad",1690,Sunny,Monday,No,Cultural Event,35,N/A,North,Walking,,09
+2025-03-04,22:39:00,"Red Fort, Delhi",23991,Sunny,Tuesday,No,Festival,30,N/A,South,Walking,,09
+2025-03-05,22:36:00,"Sanchi Stupa, Madhya Pradesh",14898,Clear,Wednesday,No,National Holiday,29,N/A,South,Private,,09
+2025-03-06,03:28:00,"Sanchi Stupa, Madhya Pradesh",5106,Cloudy,Thursday,No,Festival,24,N/A,East,Public,,09
+2025-03-07,21:03:00,"Varanasi Ghats, Varanasi",14920,Cloudy,Friday,No,National Holiday,23,N/A,West,Walking,,09
+2025-03-08,08:26:00,"Mecca Masjid, Hyderabad",4654,Sunny,Saturday,No,Regular Day,29,N/A,West,Walking,,09
+2025-03-09,23:59:00,"Taj Mahal, Agra",22930,Clear,Sunday,No,Cultural Event,32,N/A,West,Walking,,10
+2025-03-10,20:44:00,"Taj Mahal, Agra",20000,Clear,Monday,No,Regular Day,22,N/A,Central,Walking,,10
+2025-03-11,05:17:00,"Qutub Minar, Delhi",10000,Sunny,Tuesday,No,Cultural Event,27,N/A,North,Walking,,10
+2025-03-12,13:13:00,"Red Fort, Delhi",18059,Rainy,Wednesday,No,Festival,33,N/A,East,Walking,,10
+2025-03-13,20:58:00,"India Gate, Delhi",27178,Sunny,Thursday,No,Cultural Event,27,N/A,North,Private,,10
+2025-03-14,20:40:00,"Varanasi Ghats, Varanasi",8728,Rainy,Friday,No,Cultural Event,28,N/A,Central,Private,,10
+2025-03-15,17:24:00,"Taj Mahal, Agra",21934,Rainy,Saturday,No,Regular Day,21,N/A,North,Private,,10
+2025-03-16,23:17:00,"Gateway of India, Mumbai",19249,Cloudy,Sunday,No,Cultural Event,38,N/A,East,Public,,11
+2025-03-17,08:57:00,"Varanasi Ghats, Varanasi",10000,Sunny,Monday,No,Cultural Event,32,N/A,Central,Public,,11
+2025-03-18,11:48:00,"India Gate, Delhi",46471,Clear,Tuesday,No,Festival,31,N/A,North,Private,,11
+2025-03-19,22:14:00,"Sanchi Stupa, Madhya Pradesh",9186,Rainy,Wednesday,No,National Holiday,34,N/A,East,Private,,11
+2025-03-20,03:46:00,"Varanasi Ghats, Varanasi",26143,Cloudy,Thursday,No,National Holiday,33,N/A,North,Walking,,11
+2025-03-21,02:27:00,"India Gate, Delhi",36376,Sunny,Friday,No,Festival,28,N/A,West,Private,,11
+2025-03-22,03:42:00,"Taj Mahal, Agra",19113,Cloudy,Saturday,No,Cultural Event,21,N/A,West,Walking,,11
+2025-03-23,14:24:00,"Mecca Masjid, Hyderabad",13039,Clear,Sunday,No,Festival,31,N/A,North,Walking,,12
+2025-03-24,10:09:00,"Mecca Masjid, Hyderabad",21978,Sunny,Monday,No,Festival,38,N/A,North,Public,,12
+2025-03-25,15:36:00,"India Gate, Delhi",27494,Cloudy,Tuesday,No,Cultural Event,36,N/A,South,Private,,12
+2025-03-26,15:48:00,"Varanasi Ghats, Varanasi",10000,Clear,Wednesday,No,Regular Day,36,N/A,North,Walking,,12
+2025-03-27,13:46:00,"Varanasi Ghats, Varanasi",24190,Cloudy,Thursday,No,National Holiday,33,N/A,East,Private,,12
+2025-03-28,17:22:00,"India Gate, Delhi",47219,Rainy,Friday,No,National Holiday,24,N/A,South,Public,,12
+2025-03-29,19:18:00,"Gateway of India, Mumbai",22925,Rainy,Saturday,No,National Holiday,23,N/A,West,Private,,12
+2025-03-30,14:53:00,"Sanchi Stupa, Madhya Pradesh",2783,Rainy,Sunday,No,Regular Day,29,N/A,South,Walking,,13
+2025-03-31,02:21:00,"Qutub Minar, Delhi",10000,Clear,Monday,No,Cultural Event,36,N/A,Central,Private,,13
+2025-04-01,20:32:00,"Mecca Masjid, Hyderabad",16940,Rainy,Tuesday,No,National Holiday,22,N/A,South,Public,,13
+2025-04-02,15:54:00,"Sanchi Stupa, Madhya Pradesh",500,Rainy,Wednesday,No,Regular Day,24,N/A,North,Walking,,13
+2025-04-03,04:33:00,"Qutub Minar, Delhi",22067,Clear,Thursday,No,National Holiday,31,N/A,Central,Walking,,13
+2025-04-04,01:35:00,"Red Fort, Delhi",7387,Cloudy,Friday,No,Cultural Event,32,N/A,South,Private,,13
+2025-04-05,08:43:00,"Varanasi Ghats, Varanasi",27831,Clear,Saturday,No,National Holiday,30,N/A,Central,Public,,13
+2025-04-06,13:55:00,"Sanchi Stupa, Madhya Pradesh",1160,Sunny,Sunday,No,Regular Day,20,N/A,Central,Walking,,14
+2025-04-07,00:01:00,"Gateway of India, Mumbai",28314,Rainy,Monday,No,National Holiday,23,N/A,West,Walking,,14
+2025-04-08,01:31:00,"Gateway of India, Mumbai",33678,Sunny,Tuesday,No,National Holiday,24,N/A,North,Public,,14
+2025-04-09,14:04:00,"Mecca Masjid, Hyderabad",2135,Cloudy,Wednesday,No,Cultural Event,36,N/A,Central,Private,,14
+2025-04-10,02:28:00,"Gateway of India, Mumbai",15000,Sunny,Thursday,No,Regular Day,35,N/A,Central,Private,,14
+2025-04-11,09:02:00,"India Gate, Delhi",48853,Sunny,Friday,No,National Holiday,38,N/A,East,Private,,14
+2025-04-12,23:25:00,"India Gate, Delhi",31379,Rainy,Saturday,No,Cultural Event,25,N/A,South,Private,,14
+2025-04-13,11:13:00,"India Gate, Delhi",33502,Sunny,Sunday,No,Cultural Event,35,N/A,East,Walking,,15
+2025-04-14,14:24:00,"Sanchi Stupa, Madhya Pradesh",8186,Clear,Monday,No,Festival,23,N/A,East,Walking,,15
+2025-04-15,11:18:00,"Varanasi Ghats, Varanasi",21167,Sunny,Tuesday,No,Festival,24,N/A,North,Private,,15
+2025-04-16,22:21:00,"Qutub Minar, Delhi",16622,Rainy,Wednesday,No,Festival,28,N/A,North,Public,,15
+2025-04-17,23:38:00,"Mecca Masjid, Hyderabad",12280,Clear,Thursday,No,National Holiday,38,N/A,South,Private,,15
+2025-04-18,07:06:00,"Mecca Masjid, Hyderabad",8953,Sunny,Friday,No,National Holiday,29,N/A,North,Private,,15
+2025-04-19,04:30:00,"Mecca Masjid, Hyderabad",11736,Sunny,Saturday,No,Festival,37,N/A,East,Walking,,15
+2025-04-20,08:50:00,"Red Fort, Delhi",16456,Cloudy,Sunday,No,National Holiday,25,N/A,South,Private,,16
+2025-04-21,13:34:00,"Red Fort, Delhi",6450,Rainy,Monday,No,Regular Day,21,N/A,West,Private,,16
+2025-04-22,10:40:00,"Mecca Masjid, Hyderabad",22268,Cloudy,Tuesday,No,National Holiday,21,N/A,West,Private,,16
+2025-04-23,07:32:00,"Varanasi Ghats, Varanasi",7230,Cloudy,Wednesday,No,Cultural Event,33,N/A,East,Walking,,16
+2025-04-24,05:31:00,"Varanasi Ghats, Varanasi",18232,Sunny,Thursday,No,National Holiday,37,N/A,West,Public,,16
+2025-04-25,15:20:00,"Qutub Minar, Delhi",10000,Clear,Friday,No,Regular Day,27,N/A,North,Public,,16
+2025-04-26,06:22:00,"Taj Mahal, Agra",21734,Clear,Saturday,No,Cultural Event,24,N/A,Central,Walking,,16
+2025-04-27,02:34:00,"Gateway of India, Mumbai",30868,Clear,Sunday,No,Festival,31,N/A,South,Public,,17
+2025-04-28,02:29:00,"Mecca Masjid, Hyderabad",3000,Clear,Monday,No,Cultural Event,38,N/A,Central,Walking,,17
+2025-04-29,16:28:00,"Mecca Masjid, Hyderabad",500,Cloudy,Tuesday,No,Cultural Event,27,N/A,Central,Private,,17
+2025-04-30,14:29:00,"Sanchi Stupa, Madhya Pradesh",20289,Cloudy,Wednesday,No,Festival,36,N/A,South,Walking,,17
+2025-05-01,22:31:00,"Mecca Masjid, Hyderabad",2339,Cloudy,Thursday,No,Regular Day,33,N/A,South,Walking,,17
+2025-05-02,19:24:00,"Sanchi Stupa, Madhya Pradesh",13417,Cloudy,Friday,No,Festival,26,N/A,North,Private,,17
+2025-05-03,15:56:00,"Gateway of India, Mumbai",21277,Rainy,Saturday,No,Festival,39,N/A,North,Public,,17
+2025-05-04,11:45:00,"Gateway of India, Mumbai",16267,Rainy,Sunday,No,Cultural Event,37,N/A,East,Private,,18
+2025-05-05,23:51:00,"Varanasi Ghats, Varanasi",20016,Clear,Monday,No,National Holiday,35,N/A,North,Walking,,18
+2025-05-06,05:12:00,"Taj Mahal, Agra",17623,Rainy,Tuesday,No,Regular Day,37,N/A,North,Walking,,18
+2025-05-07,13:22:00,"Gateway of India, Mumbai",13602,Rainy,Wednesday,No,Regular Day,35,N/A,North,Walking,,18
+2025-05-08,09:30:00,"Taj Mahal, Agra",39829,Clear,Thursday,No,National Holiday,29,N/A,West,Public,,18
+2025-05-09,06:51:00,"Varanasi Ghats, Varanasi",20555,Rainy,Friday,No,National Holiday,21,N/A,East,Walking,,18
+2025-05-10,03:07:00,"Qutub Minar, Delhi",11322,Sunny,Saturday,No,Cultural Event,23,N/A,North,Public,,18
+2025-05-11,15:59:00,"Varanasi Ghats, Varanasi",20582,Clear,Sunday,No,National Holiday,37,N/A,North,Private,,19
+2025-05-12,05:46:00,"Varanasi Ghats, Varanasi",18420,Sunny,Monday,No,National Holiday,30,N/A,West,Public,,19
+2025-05-13,13:31:00,"Qutub Minar, Delhi",10000,Sunny,Tuesday,No,Cultural Event,24,N/A,Central,Public,,19
+2025-05-14,01:22:00,"India Gate, Delhi",27071,Rainy,Wednesday,No,Regular Day,33,N/A,North,Public,,19
+2025-05-15,03:04:00,"Gateway of India, Mumbai",33795,Sunny,Thursday,No,National Holiday,35,N/A,North,Private,,19
+2025-05-16,13:18:00,"Sanchi Stupa, Madhya Pradesh",13770,Sunny,Friday,No,Festival,20,N/A,East,Walking,,19
+2025-05-17,18:44:00,"Varanasi Ghats, Varanasi",9508,Cloudy,Saturday,No,Cultural Event,31,N/A,North,Private,,19
+2025-05-18,11:02:00,"Red Fort, Delhi",8673,Rainy,Sunday,No,Regular Day,31,N/A,South,Private,,20
+2025-05-19,16:45:00,"Qutub Minar, Delhi",18628,Sunny,Monday,No,National Holiday,31,N/A,Central,Walking,,20
+2025-05-20,22:43:00,"Red Fort, Delhi",17597,Sunny,Tuesday,No,National Holiday,24,N/A,East,Walking,,20
+2025-05-21,14:30:00,"Mecca Masjid, Hyderabad",5772,Rainy,Wednesday,No,Festival,37,N/A,Central,Private,,20
+2025-05-22,13:42:00,"India Gate, Delhi",32476,Rainy,Thursday,No,Festival,28,N/A,North,Walking,,20
+2025-05-23,19:16:00,"Qutub Minar, Delhi",8578,Cloudy,Friday,No,Cultural Event,20,N/A,North,Private,,20
+2025-05-24,23:47:00,"Red Fort, Delhi",20369,Rainy,Saturday,No,Festival,33,N/A,South,Private,,20
+2025-05-25,05:20:00,"Varanasi Ghats, Varanasi",29674,Rainy,Sunday,No,National Holiday,26,N/A,Central,Private,,21
+2025-05-26,05:55:00,"Sanchi Stupa, Madhya Pradesh",908,Rainy,Monday,No,Regular Day,37,N/A,Central,Private,,21
+2025-05-27,15:51:00,"Taj Mahal, Agra",17634,Clear,Tuesday,No,Cultural Event,27,N/A,North,Walking,,21
+2025-05-28,10:43:00,"Taj Mahal, Agra",19286,Cloudy,Wednesday,No,Cultural Event,37,N/A,Central,Public,,21
+2025-05-29,20:03:00,"India Gate, Delhi",27815,Rainy,Thursday,No,Cultural Event,31,N/A,South,Public,,21
+2025-05-30,08:17:00,"Gateway of India, Mumbai",13718,Cloudy,Friday,No,Cultural Event,26,N/A,Central,Private,,21
+2025-05-31,11:16:00,"Red Fort, Delhi",14367,Cloudy,Saturday,No,Festival,35,N/A,Central,Walking,,21
+2025-06-01,04:58:00,"Mecca Masjid, Hyderabad",5667,Rainy,Sunday,No,Regular Day,30,N/A,South,Private,,22
+2025-06-02,16:55:00,"Gateway of India, Mumbai",23441,Sunny,Monday,No,Festival,36,N/A,East,Walking,,22
+2025-06-03,08:37:00,"Varanasi Ghats, Varanasi",7929,Rainy,Tuesday,No,Regular Day,32,N/A,North,Public,,22
+2025-06-04,08:19:00,"India Gate, Delhi",36963,Rainy,Wednesday,No,Festival,32,N/A,South,Public,,22
+2025-06-05,03:15:00,"Sanchi Stupa, Madhya Pradesh",19296,Clear,Thursday,No,Festival,25,N/A,South,Private,,22
+2025-06-06,18:17:00,"Red Fort, Delhi",5115,Sunny,Friday,No,Cultural Event,30,N/A,Central,Private,,22
+2025-06-07,02:55:00,"Red Fort, Delhi",23436,Sunny,Saturday,No,Festival,35,N/A,Central,Walking,,22
+2025-06-08,23:53:00,"Mecca Masjid, Hyderabad",7573,Clear,Sunday,No,Regular Day,35,N/A,South,Public,,23
+2025-06-09,10:18:00,"Sanchi Stupa, Madhya Pradesh",9253,Rainy,Monday,No,Festival,34,N/A,West,Public,,23
+2025-06-10,19:05:00,"India Gate, Delhi",27417,Rainy,Tuesday,No,Regular Day,23,N/A,North,Walking,,23
+2025-06-11,08:23:00,"Varanasi Ghats, Varanasi",7294,Rainy,Wednesday,No,Cultural Event,25,N/A,West,Public,,23
+2025-06-12,02:33:00,"Varanasi Ghats, Varanasi",8111,Cloudy,Thursday,No,Regular Day,21,N/A,West,Private,,23
+2025-06-13,13:13:00,"Red Fort, Delhi",22506,Cloudy,Friday,No,Festival,29,N/A,East,Private,,23
+2025-06-14,04:16:00,"Sanchi Stupa, Madhya Pradesh",1463,Rainy,Saturday,No,Regular Day,21,N/A,East,Private,,23
+2025-06-15,05:00:00,"Taj Mahal, Agra",24725,Clear,Sunday,No,Regular Day,22,N/A,South,Private,,24
+2025-06-16,12:43:00,"Mecca Masjid, Hyderabad",14344,Clear,Monday,No,National Holiday,35,N/A,North,Private,,24
+2025-06-17,03:51:00,"Sanchi Stupa, Madhya Pradesh",500,Sunny,Tuesday,No,Cultural Event,28,N/A,Central,Public,,24
+2025-06-18,10:42:00,"Gateway of India, Mumbai",14280,Cloudy,Wednesday,No,Cultural Event,26,N/A,Central,Walking,,24
+2025-06-19,04:07:00,"Taj Mahal, Agra",35772,Cloudy,Thursday,No,Festival,28,N/A,South,Public,,24
+2025-06-20,23:36:00,"India Gate, Delhi",30000,Clear,Friday,No,Cultural Event,26,N/A,North,Walking,,24
+2025-06-21,22:25:00,"Red Fort, Delhi",6930,Sunny,Saturday,No,Cultural Event,28,N/A,West,Private,,24
+2025-06-22,13:01:00,"Sanchi Stupa, Madhya Pradesh",15314,Rainy,Sunday,No,Festival,21,N/A,North,Walking,,25
+2025-06-23,05:27:00,"Varanasi Ghats, Varanasi",7112,Rainy,Monday,No,Regular Day,32,N/A,Central,Walking,,25
+2025-06-24,05:21:00,"Mecca Masjid, Hyderabad",21116,Sunny,Tuesday,No,National Holiday,35,N/A,East,Private,,25
+2025-06-25,07:38:00,"Red Fort, Delhi",21019,Clear,Wednesday,No,National Holiday,33,N/A,Central,Walking,,25
+2025-06-26,07:40:00,"Mecca Masjid, Hyderabad",19644,Clear,Thursday,No,Festival,24,N/A,East,Private,,25
+2025-06-27,09:05:00,"Qutub Minar, Delhi",18779,Rainy,Friday,No,Festival,22,N/A,North,Private,,25
+2025-06-28,08:25:00,"India Gate, Delhi",32184,Clear,Saturday,No,Cultural Event,23,N/A,Central,Public,,25
+2025-06-29,06:10:00,"Gateway of India, Mumbai",21708,Cloudy,Sunday,No,Festival,28,N/A,Central,Public,,26
+2025-06-30,13:45:00,"Varanasi Ghats, Varanasi",19567,Rainy,Monday,No,Festival,34,N/A,South,Private,,26
+2025-07-01,16:19:00,"Qutub Minar, Delhi",7788,Rainy,Tuesday,No,Regular Day,23,N/A,North,Public,,26
+2025-07-02,21:45:00,"Taj Mahal, Agra",27111,Clear,Wednesday,No,National Holiday,34,N/A,West,Private,,26
+2025-07-03,03:36:00,"Taj Mahal, Agra",30567,Cloudy,Thursday,No,National Holiday,26,N/A,Central,Public,,26
+2025-07-04,10:46:00,"Red Fort, Delhi",14499,Rainy,Friday,No,National Holiday,30,N/A,West,Public,,26
+2025-07-05,06:48:00,"Taj Mahal, Agra",36469,Rainy,Saturday,No,National Holiday,30,N/A,South,Walking,,26
+2025-07-06,06:12:00,"Varanasi Ghats, Varanasi",12757,Cloudy,Sunday,No,Regular Day,20,N/A,North,Public,,27
+2025-07-07,02:06:00,"India Gate, Delhi",30000,Sunny,Monday,No,Regular Day,25,N/A,East,Private,,27
+2025-07-08,10:08:00,"Qutub Minar, Delhi",27086,Sunny,Tuesday,No,National Holiday,22,N/A,West,Public,,27
+2025-07-09,11:39:00,"India Gate, Delhi",36347,Sunny,Wednesday,No,Festival,33,N/A,South,Walking,,27
+2025-07-10,06:12:00,"India Gate, Delhi",28803,Sunny,Thursday,No,Cultural Event,23,N/A,East,Walking,,27
+2025-07-11,07:02:00,"Varanasi Ghats, Varanasi",15187,Sunny,Friday,No,Festival,30,N/A,North,Walking,,27
+2025-07-12,16:32:00,"India Gate, Delhi",47067,Clear,Saturday,No,National Holiday,36,N/A,West,Private,,27
+2025-07-13,08:47:00,"Qutub Minar, Delhi",25058,Cloudy,Sunday,No,Festival,34,N/A,East,Public,,28
+2025-07-14,14:17:00,"Taj Mahal, Agra",38392,Sunny,Monday,No,National Holiday,28,N/A,West,Public,,28
+2025-07-15,04:35:00,"Gateway of India, Mumbai",15000,Clear,Tuesday,No,Regular Day,34,N/A,Central,Walking,,28
+2025-07-16,23:45:00,"Sanchi Stupa, Madhya Pradesh",500,Rainy,Wednesday,No,Regular Day,24,N/A,South,Walking,,28
+2025-07-17,21:02:00,"Mecca Masjid, Hyderabad",3000,Clear,Thursday,No,Regular Day,24,N/A,East,Public,,28
+2025-07-18,16:32:00,"Varanasi Ghats, Varanasi",24616,Rainy,Friday,No,Festival,26,N/A,East,Walking,,28
+2025-07-19,02:23:00,"Gateway of India, Mumbai",14487,Clear,Saturday,No,Cultural Event,32,N/A,Central,Public,,28
+2025-07-20,10:34:00,"Varanasi Ghats, Varanasi",9228,Sunny,Sunday,No,Regular Day,28,N/A,West,Private,,29
+2025-07-21,13:33:00,"Taj Mahal, Agra",20000,Sunny,Monday,No,Regular Day,32,N/A,West,Walking,,29
+2025-07-22,20:04:00,"Gateway of India, Mumbai",30473,Cloudy,Tuesday,No,Festival,21,N/A,East,Private,,29
+2025-07-23,13:37:00,"Red Fort, Delhi",5310,Cloudy,Wednesday,No,Cultural Event,36,N/A,Central,Walking,,29
+2025-07-24,02:23:00,"Mecca Masjid, Hyderabad",1517,Rainy,Thursday,No,Regular Day,39,N/A,South,Public,,29
+2025-07-25,15:19:00,"Gateway of India, Mumbai",28763,Sunny,Friday,No,Festival,23,N/A,North,Public,,29
+2025-07-26,07:59:00,"Varanasi Ghats, Varanasi",10616,Rainy,Saturday,No,Cultural Event,32,N/A,Central,Private,,29
+2025-07-27,20:10:00,"Qutub Minar, Delhi",9860,Rainy,Sunday,No,Cultural Event,23,N/A,Central,Private,,30
+2025-07-28,23:25:00,"Varanasi Ghats, Varanasi",23168,Rainy,Monday,No,Festival,34,N/A,Central,Private,,30
+2025-07-29,21:45:00,"India Gate, Delhi",28480,Sunny,Tuesday,No,Cultural Event,38,N/A,South,Public,,30
+2025-07-30,21:00:00,"Red Fort, Delhi",17797,Cloudy,Wednesday,No,National Holiday,27,N/A,Central,Public,,30
+2025-07-31,17:09:00,"India Gate, Delhi",47818,Clear,Thursday,No,Festival,38,N/A,South,Walking,,30
+2025-08-01,08:30:00,"Taj Mahal, Agra",18230,Rainy,Friday,No,Cultural Event,24,N/A,East,Private,,30
+2025-08-02,00:29:00,"Varanasi Ghats, Varanasi",30079,Rainy,Saturday,No,National Holiday,29,N/A,South,Walking,,30
+2025-08-03,22:11:00,"Sanchi Stupa, Madhya Pradesh",22828,Sunny,Sunday,No,Festival,26,N/A,East,Private,,31
+2025-08-04,16:14:00,"India Gate, Delhi",42899,Rainy,Monday,No,Festival,20,N/A,North,Private,,31
+2025-08-05,21:35:00,"India Gate, Delhi",30000,Sunny,Tuesday,No,Regular Day,28,N/A,North,Public,,31
+2025-08-06,20:24:00,"Gateway of India, Mumbai",13265,Cloudy,Wednesday,No,Cultural Event,22,N/A,West,Walking,,31
+2025-08-07,17:11:00,"Qutub Minar, Delhi",13737,Rainy,Thursday,No,National Holiday,39,N/A,Central,Private,,31
+2025-08-08,13:49:00,"Mecca Masjid, Hyderabad",3000,Sunny,Friday,No,Regular Day,31,N/A,West,Walking,,31
+2025-08-09,18:07:00,"Taj Mahal, Agra",38952,Sunny,Saturday,No,National Holiday,27,N/A,West,Private,,31
+2025-08-10,15:41:00,"Gateway of India, Mumbai",33865,Cloudy,Sunday,No,National Holiday,23,N/A,East,Public,,32
+2025-08-11,21:48:00,"Mecca Masjid, Hyderabad",17687,Cloudy,Monday,No,National Holiday,34,N/A,Central,Private,,32
+2025-08-12,06:44:00,"Qutub Minar, Delhi",10000,Sunny,Tuesday,No,Cultural Event,27,N/A,East,Walking,,32
+2025-08-13,21:49:00,"Qutub Minar, Delhi",14658,Rainy,Wednesday,No,Festival,23,N/A,Central,Private,,32
+2025-08-14,12:13:00,"Taj Mahal, Agra",17243,Rainy,Thursday,No,Cultural Event,37,N/A,East,Walking,,32
+2025-08-15,10:54:00,"Red Fort, Delhi",21907,Rainy,Friday,No,Festival,37,N/A,South,Private,,32
+2025-08-16,03:56:00,"Taj Mahal, Agra",29509,Rainy,Saturday,No,National Holiday,30,N/A,South,Private,,32
+2025-08-17,14:53:00,"Varanasi Ghats, Varanasi",11900,Sunny,Sunday,No,Cultural Event,33,N/A,North,Walking,,33
+2025-08-18,18:28:00,"Red Fort, Delhi",2504,Rainy,Monday,No,Regular Day,33,N/A,South,Public,,33
+2025-08-19,03:19:00,"Qutub Minar, Delhi",10000,Clear,Tuesday,No,Cultural Event,25,N/A,Central,Walking,,33
+2025-08-20,22:47:00,"Taj Mahal, Agra",26578,Sunny,Wednesday,No,Festival,26,N/A,Central,Public,,33
+2025-08-21,19:56:00,"Sanchi Stupa, Madhya Pradesh",16524,Clear,Thursday,No,Festival,29,N/A,North,Private,,33
+2025-08-22,22:55:00,"Sanchi Stupa, Madhya Pradesh",537,Sunny,Friday,No,Cultural Event,26,N/A,North,Public,,33
+2025-08-23,13:01:00,"Mecca Masjid, Hyderabad",22460,Rainy,Saturday,No,National Holiday,34,N/A,Central,Walking,,33
+2025-08-24,07:17:00,"Qutub Minar, Delhi",23019,Clear,Sunday,No,National Holiday,21,N/A,Central,Public,,34
+2025-08-25,11:43:00,"Mecca Masjid, Hyderabad",3000,Sunny,Monday,No,Regular Day,31,N/A,East,Private,,34
+2025-08-26,01:07:00,"India Gate, Delhi",27579,Rainy,Tuesday,No,Cultural Event,35,N/A,East,Public,,34
+2025-08-27,08:29:00,"Gateway of India, Mumbai",12695,Rainy,Wednesday,No,Regular Day,26,N/A,East,Walking,,34
+2025-08-28,19:22:00,"Varanasi Ghats, Varanasi",14322,Rainy,Thursday,No,Festival,35,N/A,Central,Private,,34
+2025-08-29,14:20:00,"Gateway of India, Mumbai",32010,Rainy,Friday,No,National Holiday,26,N/A,West,Private,,34
+2025-08-30,11:35:00,"Sanchi Stupa, Madhya Pradesh",17354,Rainy,Saturday,No,National Holiday,35,N/A,South,Walking,,34
+2025-08-31,19:04:00,"Mecca Masjid, Hyderabad",6164,Clear,Sunday,No,Cultural Event,31,N/A,North,Private,,35
+2025-09-01,14:32:00,"Taj Mahal, Agra",36210,Sunny,Monday,No,National Holiday,37,N/A,Central,Walking,,35
+2025-09-02,08:22:00,"Red Fort, Delhi",7495,Cloudy,Tuesday,No,Regular Day,37,N/A,North,Private,,35
+2025-09-03,02:05:00,"Qutub Minar, Delhi",26533,Clear,Wednesday,No,Festival,34,N/A,North,Private,,35
+2025-09-04,23:10:00,"India Gate, Delhi",40317,Rainy,Thursday,No,Festival,34,N/A,West,Walking,,35
+2025-09-05,12:24:00,"Taj Mahal, Agra",17400,Rainy,Friday,No,Regular Day,27,N/A,Central,Private,,35
+2025-09-06,04:16:00,"Mecca Masjid, Hyderabad",16021,Rainy,Saturday,No,National Holiday,34,N/A,North,Private,,35
+2025-09-07,20:47:00,"Gateway of India, Mumbai",28831,Clear,Sunday,No,National Holiday,30,N/A,East,Private,,36
+2025-09-08,03:24:00,"Taj Mahal, Agra",36467,Sunny,Monday,No,National Holiday,20,N/A,Central,Public,,36
+2025-09-09,02:04:00,"India Gate, Delhi",49918,Sunny,Tuesday,No,Festival,36,N/A,West,Public,,36
+2025-09-10,22:13:00,"Gateway of India, Mumbai",15000,Clear,Wednesday,No,Regular Day,31,N/A,West,Public,,36
+2025-09-11,10:07:00,"Mecca Masjid, Hyderabad",10554,Rainy,Thursday,No,National Holiday,35,N/A,East,Walking,,36
+2025-09-12,04:02:00,"Red Fort, Delhi",5833,Sunny,Friday,No,Regular Day,24,N/A,West,Private,,36
+2025-09-13,11:10:00,"Taj Mahal, Agra",27952,Cloudy,Saturday,No,National Holiday,37,N/A,Central,Public,,36
+2025-09-14,10:44:00,"Sanchi Stupa, Madhya Pradesh",3402,Clear,Sunday,No,Regular Day,31,N/A,Central,Public,,37
+2025-09-15,12:29:00,"Red Fort, Delhi",25699,Sunny,Monday,No,Festival,27,N/A,East,Public,,37
+2025-09-16,21:41:00,"Taj Mahal, Agra",17153,Sunny,Tuesday,No,Regular Day,38,N/A,East,Walking,,37
+2025-09-17,05:16:00,"Red Fort, Delhi",13390,Clear,Wednesday,No,Festival,21,N/A,North,Walking,,37
+2025-09-18,15:13:00,"Gateway of India, Mumbai",10355,Rainy,Thursday,No,Regular Day,20,N/A,South,Walking,,37
+2025-09-19,11:09:00,"Sanchi Stupa, Madhya Pradesh",19105,Clear,Friday,No,Festival,30,N/A,South,Walking,,37
+2025-09-20,22:23:00,"Sanchi Stupa, Madhya Pradesh",526,Rainy,Saturday,No,Regular Day,34,N/A,South,Private,,37
+2025-09-21,11:15:00,"Red Fort, Delhi",10357,Cloudy,Sunday,No,Cultural Event,33,N/A,Central,Public,,38
+2025-09-22,02:26:00,"Gateway of India, Mumbai",15000,Sunny,Monday,No,Cultural Event,34,N/A,Central,Public,,38
+2025-09-23,20:19:00,"Qutub Minar, Delhi",7068,Clear,Tuesday,No,Regular Day,24,N/A,South,Public,,38
+2025-09-24,11:36:00,"India Gate, Delhi",27842,Rainy,Wednesday,No,Regular Day,27,N/A,South,Public,,38
+2025-09-25,23:57:00,"Mecca Masjid, Hyderabad",3000,Clear,Thursday,No,Cultural Event,36,N/A,East,Private,,38
+2025-09-26,20:42:00,"Gateway of India, Mumbai",29182,Clear,Friday,No,National Holiday,24,N/A,North,Private,,38
+2025-09-27,00:06:00,"Mecca Masjid, Hyderabad",4631,Clear,Saturday,No,Cultural Event,36,N/A,Central,Public,,38
+2025-09-28,12:40:00,"Gateway of India, Mumbai",16648,Rainy,Sunday,No,Cultural Event,35,N/A,Central,Public,,39
+2025-09-29,22:20:00,"Mecca Masjid, Hyderabad",10767,Rainy,Monday,No,National Holiday,33,N/A,Central,Public,,39
+2025-09-30,23:00:00,"Taj Mahal, Agra",17831,Rainy,Tuesday,No,Regular Day,21,N/A,West,Walking,,39
+2025-10-01,01:48:00,"Taj Mahal, Agra",20000,Clear,Wednesday,No,Cultural Event,32,N/A,South,Walking,,39
+2025-10-02,21:42:00,"Qutub Minar, Delhi",22817,Cloudy,Thursday,No,National Holiday,26,N/A,North,Walking,,39
+2025-10-03,13:00:00,"Gateway of India, Mumbai",15000,Sunny,Friday,No,Cultural Event,39,N/A,North,Private,,39
+2025-10-04,15:29:00,"Qutub Minar, Delhi",14025,Clear,Saturday,No,Cultural Event,25,N/A,West,Walking,,39
+2025-10-05,09:47:00,"India Gate, Delhi",33105,Rainy,Sunday,No,Regular Day,25,N/A,East,Private,,40
+2025-10-06,03:14:00,"India Gate, Delhi",49931,Clear,Monday,No,National Holiday,29,N/A,East,Walking,,40
+2025-10-07,04:53:00,"Gateway of India, Mumbai",25859,Sunny,Tuesday,No,National Holiday,27,N/A,North,Private,,40
+2025-10-08,12:33:00,"Red Fort, Delhi",4016,Cloudy,Wednesday,No,Regular Day,36,N/A,South,Private,,40
+2025-10-09,04:23:00,"India Gate, Delhi",46861,Cloudy,Thursday,No,Festival,20,N/A,East,Walking,,40
+2025-10-10,14:43:00,"Sanchi Stupa, Madhya Pradesh",16215,Clear,Friday,No,National Holiday,32,N/A,West,Private,,40
+2025-10-11,16:43:00,"Gateway of India, Mumbai",17458,Cloudy,Saturday,No,Regular Day,28,N/A,North,Private,,40
+2025-10-12,23:52:00,"Sanchi Stupa, Madhya Pradesh",14683,Sunny,Sunday,No,National Holiday,28,N/A,South,Walking,,41
+2025-10-13,11:23:00,"Qutub Minar, Delhi",7194,Rainy,Monday,No,Cultural Event,20,N/A,Central,Private,,41
+2025-10-14,03:03:00,"Varanasi Ghats, Varanasi",10000,Sunny,Tuesday,No,Cultural Event,27,N/A,West,Walking,,41
+2025-10-15,12:39:00,"Qutub Minar, Delhi",8033,Cloudy,Wednesday,No,Cultural Event,25,N/A,East,Public,,41
+2025-10-16,03:39:00,"Qutub Minar, Delhi",28404,Cloudy,Thursday,No,National Holiday,38,N/A,North,Walking,,41
+2025-10-17,23:43:00,"Sanchi Stupa, Madhya Pradesh",2000,Clear,Friday,No,Regular Day,28,N/A,North,Public,,41
+2025-10-18,10:24:00,"Varanasi Ghats, Varanasi",24638,Rainy,Saturday,No,National Holiday,39,N/A,East,Public,,41
+2025-10-19,12:09:00,"Gateway of India, Mumbai",14734,Rainy,Sunday,No,Regular Day,31,N/A,South,Public,,42
+2025-10-20,22:01:00,"Sanchi Stupa, Madhya Pradesh",581,Rainy,Monday,No,Regular Day,33,N/A,West,Walking,,42
+2025-10-21,12:27:00,"Sanchi Stupa, Madhya Pradesh",8465,Clear,Tuesday,No,National Holiday,35,N/A,West,Walking,,42
+2025-10-22,14:19:00,"Sanchi Stupa, Madhya Pradesh",2000,Clear,Wednesday,No,Cultural Event,22,N/A,North,Walking,,42
+2025-10-23,01:41:00,"Qutub Minar, Delhi",7055,Rainy,Thursday,No,Regular Day,33,N/A,Central,Walking,,42
+2025-10-24,01:20:00,"Gateway of India, Mumbai",24008,Clear,Friday,No,Festival,33,N/A,North,Walking,,42
+2025-10-25,20:36:00,"Taj Mahal, Agra",36116,Rainy,Saturday,No,National Holiday,28,N/A,North,Walking,,42
+2025-10-26,09:54:00,"Varanasi Ghats, Varanasi",12641,Sunny,Sunday,No,Regular Day,32,N/A,East,Walking,,43
+2025-10-27,17:50:00,"India Gate, Delhi",29194,Cloudy,Monday,No,Regular Day,39,N/A,North,Public,,43
+2025-10-28,21:14:00,"Sanchi Stupa, Madhya Pradesh",942,Cloudy,Tuesday,No,Regular Day,37,N/A,North,Private,,43
+2025-10-29,17:34:00,"Qutub Minar, Delhi",8850,Rainy,Wednesday,No,Regular Day,27,N/A,North,Public,,43
+2025-10-30,15:28:00,"Varanasi Ghats, Varanasi",26957,Clear,Thursday,No,Festival,23,N/A,North,Public,,43
+2025-10-31,08:54:00,"Gateway of India, Mumbai",13351,Cloudy,Friday,No,Regular Day,22,N/A,South,Public,,43
+2025-11-01,17:37:00,"Sanchi Stupa, Madhya Pradesh",3122,Sunny,Saturday,No,Cultural Event,24,N/A,East,Public,,43
+2025-11-02,07:13:00,"Red Fort, Delhi",10073,Rainy,Sunday,No,Cultural Event,23,N/A,South,Public,,44
+2025-11-03,19:03:00,"Varanasi Ghats, Varanasi",10000,Clear,Monday,No,Regular Day,28,N/A,East,Walking,,44
+2025-11-04,07:17:00,"Gateway of India, Mumbai",15000,Sunny,Tuesday,No,Cultural Event,29,N/A,Central,Walking,,44
+2025-11-05,09:27:00,"Red Fort, Delhi",5373,Rainy,Wednesday,No,Cultural Event,31,N/A,East,Public,,44
+2025-11-06,05:17:00,"Varanasi Ghats, Varanasi",23004,Clear,Thursday,No,National Holiday,31,N/A,North,Public,,44
+2025-11-07,13:01:00,"Mecca Masjid, Hyderabad",14766,Sunny,Friday,No,National Holiday,20,N/A,East,Public,,44
+2025-11-08,15:41:00,"Varanasi Ghats, Varanasi",21524,Cloudy,Saturday,No,National Holiday,33,N/A,South,Public,,44
+2025-11-09,09:40:00,"Gateway of India, Mumbai",30090,Clear,Sunday,No,National Holiday,29,N/A,Central,Private,,45
+2025-11-10,02:23:00,"Taj Mahal, Agra",16158,Rainy,Monday,No,Cultural Event,21,N/A,West,Private,,45
+2025-11-11,17:32:00,"Mecca Masjid, Hyderabad",3000,Clear,Tuesday,No,Regular Day,39,N/A,West,Private,,45
+2025-11-12,03:52:00,"Mecca Masjid, Hyderabad",6468,Rainy,Wednesday,No,National Holiday,20,N/A,North,Private,,45
+2025-11-13,13:02:00,"Red Fort, Delhi",16041,Rainy,Thursday,No,Festival,25,N/A,Central,Private,,45
+2025-11-14,09:33:00,"Qutub Minar, Delhi",17366,Cloudy,Friday,No,National Holiday,22,N/A,North,Walking,,45
+2025-11-15,11:27:00,"Taj Mahal, Agra",24594,Clear,Saturday,No,Cultural Event,35,N/A,North,Private,,45
+2025-11-16,15:30:00,"Qutub Minar, Delhi",10487,Cloudy,Sunday,No,Cultural Event,39,N/A,North,Public,,46
+2025-11-17,11:47:00,"India Gate, Delhi",30000,Sunny,Monday,No,Regular Day,38,N/A,East,Walking,,46
+2025-11-18,19:49:00,"Mecca Masjid, Hyderabad",500,Rainy,Tuesday,No,Regular Day,23,N/A,East,Public,,46
+2025-11-19,00:11:00,"Sanchi Stupa, Madhya Pradesh",9525,Clear,Wednesday,No,Festival,23,N/A,North,Private,,46
+2025-11-20,20:57:00,"Gateway of India, Mumbai",11153,Rainy,Thursday,No,Regular Day,29,N/A,South,Walking,,46
+2025-11-21,03:23:00,"Sanchi Stupa, Madhya Pradesh",17744,Clear,Friday,No,Festival,32,N/A,Central,Private,,46
+2025-11-22,04:04:00,"India Gate, Delhi",43238,Clear,Saturday,No,Festival,20,N/A,East,Public,,46
+2025-11-23,19:37:00,"Qutub Minar, Delhi",25217,Rainy,Sunday,No,Festival,27,N/A,East,Private,,47
+2025-11-24,03:12:00,"Sanchi Stupa, Madhya Pradesh",500,Rainy,Monday,No,Regular Day,35,N/A,Central,Private,,47
+2025-11-25,03:04:00,"Sanchi Stupa, Madhya Pradesh",2000,Sunny,Tuesday,No,Cultural Event,35,N/A,East,Private,,47
+2025-11-26,09:24:00,"Taj Mahal, Agra",29381,Rainy,Wednesday,No,Festival,22,N/A,West,Walking,,47
+2025-11-27,05:16:00,"Taj Mahal, Agra",27099,Sunny,Thursday,No,Festival,38,N/A,North,Private,,47
+2025-11-28,00:43:00,"Mecca Masjid, Hyderabad",12777,Clear,Friday,No,Festival,28,N/A,North,Private,,47
+2025-11-29,08:14:00,"Varanasi Ghats, Varanasi",9861,Clear,Saturday,No,Cultural Event,34,N/A,West,Public,,47
+2025-11-30,21:26:00,"Gateway of India, Mumbai",16579,Rainy,Sunday,No,Regular Day,23,N/A,North,Private,,48
+2025-12-01,18:42:00,"Sanchi Stupa, Madhya Pradesh",2000,Clear,Monday,No,Cultural Event,22,N/A,East,Walking,,48
+2025-12-02,19:04:00,"India Gate, Delhi",36573,Cloudy,Tuesday,No,National Holiday,31,N/A,Central,Private,,48
+2025-12-03,21:30:00,"Qutub Minar, Delhi",28931,Cloudy,Wednesday,No,Festival,26,N/A,Central,Walking,,48
+2025-12-04,09:15:00,"Mecca Masjid, Hyderabad",2463,Cloudy,Thursday,No,Regular Day,38,N/A,South,Walking,,48
+2025-12-05,16:10:00,"Taj Mahal, Agra",20000,Clear,Friday,No,Cultural Event,24,N/A,West,Public,,48
+2025-12-06,10:10:00,"India Gate, Delhi",48833,Sunny,Saturday,No,Festival,37,N/A,East,Public,,48
+2025-12-07,08:07:00,"Mecca Masjid, Hyderabad",3347,Cloudy,Sunday,No,Regular Day,20,N/A,West,Private,,49
+2025-12-08,14:23:00,"Taj Mahal, Agra",39044,Clear,Monday,No,Festival,39,N/A,West,Walking,,49
+2025-12-09,16:56:00,"Qutub Minar, Delhi",7407,Rainy,Tuesday,No,Regular Day,31,N/A,North,Private,,49
+2025-12-10,12:20:00,"Varanasi Ghats, Varanasi",20251,Cloudy,Wednesday,No,National Holiday,34,N/A,Central,Walking,,49
+2025-12-11,22:30:00,"Varanasi Ghats, Varanasi",17972,Clear,Thursday,No,Festival,32,N/A,East,Private,,49
+2025-12-12,08:51:00,"Red Fort, Delhi",6401,Sunny,Friday,No,Cultural Event,30,N/A,Central,Private,,49
+2025-12-13,22:06:00,"India Gate, Delhi",46071,Cloudy,Saturday,No,Festival,35,N/A,East,Public,,49
+2025-12-14,23:31:00,"India Gate, Delhi",44425,Rainy,Sunday,No,Festival,30,N/A,North,Walking,,50
+2025-12-15,06:14:00,"India Gate, Delhi",27444,Cloudy,Monday,No,Cultural Event,24,N/A,South,Private,,50
+2025-12-16,10:02:00,"Red Fort, Delhi",3768,Cloudy,Tuesday,No,Cultural Event,25,N/A,West,Public,,50
+2025-12-17,19:04:00,"Mecca Masjid, Hyderabad",16649,Rainy,Wednesday,No,Festival,34,N/A,North,Public,,50
+2025-12-18,13:05:00,"Taj Mahal, Agra",37507,Sunny,Thursday,No,Festival,21,N/A,Central,Public,,50
+2025-12-19,19:42:00,"Qutub Minar, Delhi",23176,Rainy,Friday,No,National Holiday,31,N/A,Central,Walking,,50
+2025-12-20,22:58:00,"Red Fort, Delhi",10297,Rainy,Saturday,No,Regular Day,29,N/A,South,Public,,50
+2025-12-21,23:41:00,"Sanchi Stupa, Madhya Pradesh",6138,Clear,Sunday,No,Regular Day,39,N/A,East,Walking,,51
+2025-12-22,17:14:00,"Mecca Masjid, Hyderabad",16999,Clear,Monday,No,National Holiday,28,N/A,East,Walking,,51
+2025-12-23,22:52:00,"Red Fort, Delhi",8000,Sunny,Tuesday,No,Regular Day,21,N/A,North,Private,,51
+2025-12-24,22:29:00,"Sanchi Stupa, Madhya Pradesh",13021,Cloudy,Wednesday,No,Festival,21,N/A,East,Walking,,51
+2025-12-25,08:09:00,"Red Fort, Delhi",3768,Cloudy,Thursday,No,Regular Day,36,N/A,South,Walking,,51
+2025-12-26,03:15:00,"Qutub Minar, Delhi",10000,Clear,Friday,No,Regular Day,32,N/A,North,Public,,51
+2025-12-27,14:46:00,"Taj Mahal, Agra",34003,Clear,Saturday,No,National Holiday,24,N/A,South,Public,,51
+2025-12-28,02:55:00,"Varanasi Ghats, Varanasi",12730,Sunny,Sunday,No,Regular Day,37,N/A,North,Public,,52
+2025-12-29,04:52:00,"Sanchi Stupa, Madhya Pradesh",18950,Rainy,Monday,No,Festival,31,N/A,Central,Private,,52
+2025-12-30,10:26:00,"Sanchi Stupa, Madhya Pradesh",15469,Cloudy,Tuesday,No,National Holiday,38,N/A,North,Walking,,52

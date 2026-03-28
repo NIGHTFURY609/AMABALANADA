@@ -8,17 +8,34 @@ total_visitors_entered = 0
 
 # --- 1. Database Setup ---
 def setup_database(db_path="ground_state.db"):
-    """Creates tables and inserts initial data."""
+    """Creates tables and sets up a time-series log for multiple days."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
-    # Create tables
-    cursor.execute("CREATE TABLE IF NOT EXISTS attractions (id INTEGER PRIMARY KEY, name TEXT, base_duration_mins REAL, pull_factor INTEGER)")
-    cursor.execute("CREATE TABLE IF NOT EXISTS venue_state (id INTEGER PRIMARY KEY CHECK (id = 1), last_updated DATETIME DEFAULT CURRENT_TIMESTAMP, current_crowd INTEGER NOT NULL DEFAULT 0, projected_crowd_size INTEGER NOT NULL DEFAULT 0)")
+    # Create attractions table
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS attractions (
+            id INTEGER PRIMARY KEY, 
+            name TEXT, 
+            base_duration_mins REAL, 
+            pull_factor INTEGER
+        )
+    """)
     
-    # Clear old data
+    # NEW: Create a Time-Series log table instead of a single state row
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS crowd_log (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            day_number INTEGER,
+            sim_minute REAL,
+            current_crowd INTEGER,
+            is_weekend BOOLEAN
+        )
+    """)
+    
+    # Clear old data for a fresh simulation run
     cursor.execute("DELETE FROM attractions")
-    cursor.execute("DELETE FROM venue_state")
+    cursor.execute("DELETE FROM crowd_log")
     
     # Insert Sample Attractions
     attractions = [
@@ -28,9 +45,6 @@ def setup_database(db_path="ground_state.db"):
         ('Restrooms', 5.0, 2)
     ]
     cursor.executemany("INSERT INTO attractions (name, base_duration_mins, pull_factor) VALUES (?, ?, ?)", attractions)
-    
-    # Initialize Venue State (Starts at 0)
-    cursor.execute("INSERT INTO venue_state (id, current_crowd, projected_crowd_size) VALUES (1, 0, 0)")
     
     conn.commit()
     conn.close()
@@ -44,38 +58,28 @@ def visitor(env, name, db_path):
     # 1. ENTER
     current_crowd_size += 1
     
-    # Connect to DB to see what attractions are available
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute("SELECT name, base_duration_mins, pull_factor FROM attractions")
     attractions = cursor.fetchall()
     conn.close()
 
-    # Determine how many things they will visit (1 to 3 things)
     num_visits = random.randint(1, 3)
 
     for _ in range(num_visits):
-        # 2. TRANSIT (takes 2 to 5 minutes to walk somewhere)
-        walking_time = random.uniform(2.0, 5.0)
-        yield env.timeout(walking_time) 
+        # 2. TRANSIT
+        yield env.timeout(random.uniform(2.0, 5.0)) 
         
         # 3. ATTRACTION
-        # Pick an attraction weighted by its pull factor
-        names = [attr[0] for attr in attractions]
-        durations = [attr[1] for attr in attractions]
         pulls = [attr[2] for attr in attractions]
+        durations = [attr[1] for attr in attractions]
         
         chosen_index = random.choices(range(len(attractions)), weights=pulls, k=1)[0]
-        visit_duration = durations[chosen_index]
-        
-        # Add a little randomness to the duration (+/- 20%)
-        actual_duration = visit_duration * random.uniform(0.8, 1.2)
+        actual_duration = durations[chosen_index] * random.uniform(0.8, 1.2)
         yield env.timeout(actual_duration)
 
-    # 4. EXIT (transit to exit)
-    exit_walk_time = random.uniform(2.0, 5.0)
-    yield env.timeout(exit_walk_time)
-    
+    # 4. EXIT
+    yield env.timeout(random.uniform(2.0, 5.0))
     current_crowd_size -= 1
 
 
@@ -83,7 +87,6 @@ def crowd_generator(env, db_path, arrival_rate_per_min):
     """Continuously generates new visitors based on an arrival rate."""
     global total_visitors_entered
     while True:
-        # Exponential distribution is standard for modeling random arrivals
         time_between_arrivals = random.expovariate(arrival_rate_per_min)
         yield env.timeout(time_between_arrivals)
         
@@ -91,44 +94,60 @@ def crowd_generator(env, db_path, arrival_rate_per_min):
         env.process(visitor(env, f"Visitor-{total_visitors_entered}", db_path))
 
 
-def vision_camera_simulator(env, db_path, update_interval_mins):
-    """Mimics your ML script by periodically updating the SQLite database."""
+def vision_camera_simulator(env, db_path, update_interval_mins, day_number, is_weekend):
+    """Logs the current crowd size to the database every few minutes."""
     while True:
-        # Wait for the update interval (e.g., every 1 minute)
         yield env.timeout(update_interval_mins)
         
-        # Update the database with the current global state
+        # INSERT a new record instead of overwriting an old one
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
         cursor.execute(
-            "UPDATE venue_state SET current_crowd = ?, last_updated = CURRENT_TIMESTAMP WHERE id = 1", 
-            (current_crowd_size,)
+            "INSERT INTO crowd_log (day_number, sim_minute, current_crowd, is_weekend) VALUES (?, ?, ?, ?)", 
+            (day_number, round(env.now, 2), current_crowd_size, is_weekend)
         )
         conn.commit()
         conn.close()
         
-        # Print to console so you can watch the simulation run
-        print(f"[Time {env.now:.2f} mins] Vision Camera Update: {current_crowd_size} people currently in ground.")
+        # Print a clean log to the terminal
+        day_type = "Weekend" if is_weekend else "Weekday"
+        print(f"[Day {day_number} - {day_type} | Time {env.now:06.2f}m] Crowd: {current_crowd_size}")
 
-# --- 3. Run the Simulation ---
+# --- 3. Run the Multi-Day Simulation ---
 if __name__ == "__main__":
     DB_FILE = "ground_state.db"
+    TOTAL_DAYS_TO_SIMULATE = 7 # Simulating one full week
+    MINUTES_PER_DAY = 720      # e.g., Open for 12 hours (12 * 60)
     
     print("Setting up database...")
     setup_database(DB_FILE)
     
-    print("Starting Simulation...")
-    # Initialize the SimPy environment
-    env = simpy.Environment()
+    print(f"\nStarting {TOTAL_DAYS_TO_SIMULATE}-Day Simulation...")
     
-    # 1. Start the camera updater (updates DB every 5 virtual minutes)
-    env.process(vision_camera_simulator(env, DB_FILE, update_interval_mins=5.0))
-    
-    # 2. Start people arriving (e.g., 5 people entering per minute)
-    env.process(crowd_generator(env, DB_FILE, arrival_rate_per_min=5.0))
-    
-    # Run the simulation for 120 virtual minutes (2 hours)
-    env.run(until=120)
-    
-    print(f"\nSimulation Complete! Total visitors processed: {total_visitors_entered}")
-    print("Your SQLite database is now populated and ready for you to test your dwell time algorithm against the final state.")
+    for day in range(1, TOTAL_DAYS_TO_SIMULATE + 1):
+        # Reset the global crowd size at the start of every new day (gates open)
+        current_crowd_size = 0 
+        
+        # Determine if it's a weekend (Days 6 and 7 of our cycle)
+        is_weekend = True if (day % 7 == 6) or (day % 7 == 0) else False
+        
+        # Weekends get 3x more traffic! (15 people/min vs 5 people/min)
+        daily_arrival_rate = 15.0 if is_weekend else 5.0 
+        
+        print(f"\n--- STARTING DAY {day} (Arrival Rate: {daily_arrival_rate}/min) ---")
+        
+        # Initialize a fresh SimPy environment for the new day
+        env = simpy.Environment()
+        
+        # 1. Start the camera logger (logs to DB every 15 virtual minutes)
+        env.process(vision_camera_simulator(env, DB_FILE, update_interval_mins=15.0, day_number=day, is_weekend=is_weekend))
+        
+        # 2. Start people arriving
+        env.process(crowd_generator(env, DB_FILE, arrival_rate_per_min=daily_arrival_rate))
+        
+        # Run the simulation for the day's total minutes
+        env.run(until=MINUTES_PER_DAY)
+        
+    print(f"\n Simulation Complete!")
+    print(f"Total visitors processed across {TOTAL_DAYS_TO_SIMULATE} days: {total_visitors_entered}")
+    print("Your SQLite database 'crowd_log' table is now populated with multi-day time-series data!")
