@@ -1,12 +1,13 @@
 import torch
 import pandas as pd
 from chronos import Chronos2Pipeline
+import json
 import matplotlib.pyplot as plt
 
 # -----------------------------
 # CONFIG
 # -----------------------------
-CSV_PATH = "test-training/chronos_covariate_data.csv"
+CSV_PATH = "chronos_covariate_data.csv"
 PREDICTION_LENGTH = 10
 MAX_CAPACITY = 50
 SURGE_THRESHOLD = 15
@@ -102,56 +103,27 @@ current_count = df_original["crowd_count"].iloc[-1]
 # -----------------------------
 # ALERT SYSTEM (IMPROVED)
 # -----------------------------
-print("\nALERT ANALYSIS")
+alert_msg = None
 
 if any(predicted_values > MAX_CAPACITY):
-    print("Overcrowding predicted!")
-
+    alert_msg = "Overcrowding predicted! Capacity breach imminent."
 elif any(upper_values > MAX_CAPACITY):
-    print("Possible overcrowding (uncertain but risky)")
-
+    alert_msg = "Possible overcrowding (uncertain but risky)."
 elif max(predicted_values) > 0.8 * MAX_CAPACITY:
-    print("Approaching capacity")
-
+    alert_msg = "Approaching capacity."
 elif (predicted_values[0] - current_count) > SURGE_THRESHOLD:
-    print("Rapid crowd surge detected")
-
-else:
-    print("Crowd levels are stable.")
+    alert_msg = "Rapid crowd surge detected."
 
 # -----------------------------
-# RISK SCORE (ADVANCED)
+# JSON OUTPUT FOR NODE.JS
 # -----------------------------
-risk_score = max(upper_values) / MAX_CAPACITY
+# Grab the first 5 predictions to perfectly fit your T+0 to T+4 graph
+chart_data = [round(val, 2) for val in predicted_values[:5]]
 
-if risk_score > 1:
-    print("HIGH RISK")
-elif risk_score > 0.8:
-    print("MEDIUM RISK")
-else:
-    print("LOW RISK")
+output = {
+    "predictions": chart_data,
+    "alert": alert_msg
+}
 
-# -----------------------------
-# VISUALIZATION
-# -----------------------------
-history = df_original["crowd_count"].values[-50:]
-
-history_x = list(range(len(history)))
-future_x = list(range(len(history), len(history) + len(predicted_values)))
-
-plt.figure(figsize=(10, 5))
-
-plt.plot(history_x, history, label="Past Crowd", linewidth=2)
-plt.plot(future_x, predicted_values, linestyle="dashed", label="Predicted Crowd")
-
-# confidence band
-plt.fill_between(future_x, lower_values, upper_values, alpha=0.2, label="Uncertainty")
-
-plt.axhline(y=MAX_CAPACITY, linestyle="--", label="Max Capacity")
-
-plt.title("Crowd Forecast (Chronos-2)")
-plt.xlabel("Time Steps")
-plt.ylabel("Crowd Count")
-plt.legend()
-
-plt.show()
+# Print strictly the JSON string so Node.js can parse it cleanly
+print(json.dumps(output))

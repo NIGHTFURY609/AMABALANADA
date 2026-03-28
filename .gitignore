@@ -4,4 +4,4 @@ yolov8n.pt
 __pycache__/
 ground_state.db
 venue_state.db
-/test-traoining/ground_state.db
+/test-training/ground_state.db
